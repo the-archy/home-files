@@ -1,7 +1,0 @@
-mumbleAutoLaunchOption = "ACCEPT"
-mumbleDimensionYAxisAdjust = 0.0
-voipClient = "MUMBLE"
-mumbleServerHost = "mc.johnystar.moe"
-mumbleServerPort = 64738
-mumbleServerPath = "/Minecraft/General/Dimensions/{2}"
-mumbleServerQuery = ""
