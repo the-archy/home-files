@@ -1,0 +1,15 @@
+{
+	"level_0": {
+		"name": "panorama_pack_one:level_0",
+		"panoramaId": "panorama_pack_one:panoramas/level_0/level0",
+		"musicId": "music.menu",
+		"movementSettings": {
+			"frozen": false,
+			"addedX": 0.0,
+			"addedY": 0.0,
+			"speedMultiplier": 1.0,
+			"woozy": false
+		},
+		"weight": 1
+	}
+}

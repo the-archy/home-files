@@ -1,0 +1,119 @@
+{
+	"bonsai": {
+		"name": "bonsai",
+		"panoramaId": "wholsom_panoramas:panoramas/bonsai/bonsai",
+		"musicId": "music.menu",
+		"movementSettings": {
+			"frozen": false,
+			"addedX": 0.0,
+			"addedY": 20.0,
+			"speedMultiplier": 2.3,
+			"woozy": false
+		},
+		"weight": 1
+	},
+	"elly": {
+		"name": "elly",
+		"panoramaId": "wholsom_panoramas:panoramas/elly/elly",
+		"musicId": "music.menu",
+		"movementSettings": {
+			"frozen": false,
+			"addedX": 0.0,
+			"addedY": 17.0,
+			"speedMultiplier": 2.7,
+			"woozy": false
+		},
+		"weight": 1
+	},
+	"ellyma": {
+		"name": "ellyma",
+		"panoramaId": "wholsom_panoramas:panoramas/ellyma/ellyma",
+		"musicId": "music.menu",
+		"movementSettings": {
+			"frozen": false,
+			"addedX": 0.0,
+			"addedY": 15.0,
+			"speedMultiplier": 2.5,
+			"woozy": false
+		},
+		"weight": 1
+	},
+	"home": {
+		"name": "home",
+		"panoramaId": "wholsom_panoramas:panoramas/home/home",
+		"musicId": "music.menu",
+		"movementSettings": {
+			"frozen": false,
+			"addedX": 0.0,
+			"addedY": 20.0,
+			"speedMultiplier": 2.0,
+			"woozy": false
+		},
+		"weight": 1
+	},
+	"mia": {
+		"name": "mia",
+		"panoramaId": "wholsom_panoramas:panoramas/mia/mia",
+		"musicId": "music.menu",
+		"movementSettings": {
+			"frozen": false,
+			"addedX": 0.0,
+			"addedY": 15.0,
+			"speedMultiplier": 2.5,
+			"woozy": false
+		},
+		"weight": 1
+	},
+	"mobtrap": {
+		"name": "mobtrap",
+		"panoramaId": "wholsom_panoramas:panoramas/mobtrap/mobtrap",
+		"musicId": "music.menu",
+		"movementSettings": {
+			"frozen": false,
+			"addedX": 0.0,
+			"addedY": 41.0,
+			"speedMultiplier": 4.0,
+			"woozy": false
+		},
+		"weight": 1
+	},
+	"nether": {
+		"name": "nether",
+		"panoramaId": "wholsom_panoramas:panoramas/nether/nether",
+		"musicId": "music.menu",
+		"movementSettings": {
+			"frozen": false,
+			"addedX": 0.0,
+			"addedY": 22.0,
+			"speedMultiplier": 2.5,
+			"woozy": false
+		},
+		"weight": 1
+	},
+	"potato": {
+		"name": "potato",
+		"panoramaId": "wholsom_panoramas:panoramas/potato/potato",
+		"musicId": "music.menu",
+		"movementSettings": {
+			"frozen": false,
+			"addedX": 0.0,
+			"addedY": 20.0,
+			"speedMultiplier": 2.5,
+			"woozy": false
+		},
+		"weight": 1
+	},
+	"village-stoneholm": {
+		"name": "village-stoneholm",
+		"panoramaId": "wholsom_panoramas:panoramas/village-stoneholm/village-stoneholm",
+		"musicId": "music.menu",
+		"movementSettings": {
+			"frozen": false,
+			"addedX": 0.0,
+			"addedY": 17.0,
+			"speedMultiplier": 2.2,
+			"woozy": false
+		},
+		"weight": 1
+	}
+}

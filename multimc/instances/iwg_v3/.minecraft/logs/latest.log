@@ -1,0 +1,867 @@
+[20:36:48] [main/INFO]: Loading for game Minecraft 1.16.5
+[20:36:48] [ForkJoinPool-1-worker-8/WARN]: The mod "libcd" contains invalid entries in its mod json:
+- Unsupported root entry "licence" at line 9 column 12
+[20:36:48] [ForkJoinPool-1-worker-6/WARN]: Non-Fabric mod JAR at "/home/archy/.local/share/multimc/instances/iwg_v3/.minecraft/mods/randompatches-2.4.5-fabric-javadoc.jar", ignoring
+[20:36:48] [ForkJoinPool-1-worker-11/WARN]: Non-Fabric mod JAR at "/home/archy/.local/share/multimc/instances/iwg_v3/.minecraft/mods/findme-1.16.3-2.2.0.0.jar", ignoring
+[20:36:48] [main/WARN]: Warnings were found! 
+ - Mod 'ClickThrough' (clickthrough) recommends version 1.1.7 or later of mod modupdater, which is missing!
+	 - You must install version 1.1.7 or later of modupdater.
+ - Mod 'Clear Despawn' (cleardespawn) recommends version 1.1.7 or later of mod modupdater, which is missing!
+	 - You must install version 1.1.7 or later of modupdater.
+[20:36:48] [main/INFO]: [FabricLoader] Loading 133 mods:
+	- amecsapi@1.1.4+mc1.16.5
+	- appleskin@mc1.16.4-2.0.0
+	- architectury@1.17.22
+	- autoconfig1u@3.3.1
+	- blockus@2.1.8+1.16.5
+	- charm@2.3.2
+	- cleardespawn@1.16.5-fabric0.30.0-1.1.1
+	- clickthrough@1.16.5-fabric0.30.0-0.4
+	- cloth-basic-math@0.5.1
+	- cloth-client-events-v0@1.5.47
+	- cloth-config2@4.11.26
+	- coat@1.0.0-beta.9
+	- com_electronwill_night-config_core@3.6.2
+	- com_electronwill_night-config_toml@3.6.2
+	- com_moandjiezana_toml_toml4j@0.7.2
+	- commonformatting@1.0.1
+	- crowdin-translate@1.2
+	- dark-loading-screen@1.6.3
+	- dashloader@1.4.5
+	- dynamicentry@0.1.3
+	- dynamicfps@2.0.2
+	- editsign@2.2.0
+	- extrasounds@1.4.0
+	- fabric@0.36.0+1.16
+	- fabric-api-base@0.3.0+c88702897d
+	- fabric-api-lookup-api-v1@1.2.0+6aebe11a7d
+	- fabric-biome-api-v1@3.1.10+3661eaa17d
+	- fabric-blockrenderlayer-v1@1.1.5+ca58154a7d
+	- fabric-command-api-v1@1.1.1+351679a77d
+	- fabric-commands-v0@0.2.2+ca58154a7d
+	- fabric-containers-v0@0.1.11+9354966b7d
+	- fabric-content-registries-v0@0.2.1+ca58154a7d
+	- fabric-crash-report-info-v1@0.1.3+ca58154a7d
+	- fabric-dimensions-v1@2.0.6+61336ba97d
+	- fabric-entity-events-v1@1.1.0+c88702897d
+	- fabric-events-interaction-v0@0.4.3+f941baf07d
+	- fabric-events-lifecycle-v0@0.2.1+ca58154a7d
+	- fabric-game-rule-api-v1@1.0.6+ca58154a7d
+	- fabric-item-api-v1@1.2.1+ca58154a7d
+	- fabric-item-groups-v0@0.2.7+2868a2287d
+	- fabric-key-binding-api-v1@1.0.4+9354966b7d
+	- fabric-keybindings-v0@0.2.1+ca58154a7d
+	- fabric-language-kotlin@1.6.1+kotlin.1.5.10
+	- fabric-lifecycle-events-v1@1.2.1+ca58154a7d
+	- fabric-loot-tables-v1@1.0.2+ca58154a7d
+	- fabric-mining-levels-v0@0.1.3+ca58154a7d
+	- fabric-models-v0@0.3.0+bc7a746f7d
+	- fabric-mumblelink-mod@0.7.5
+	- fabric-networking-api-v1@1.0.3+e3c9d0627d
+	- fabric-networking-blockentity-v0@0.2.8+ca58154a7d
+	- fabric-networking-v0@0.3.2+ca58154a7d
+	- fabric-object-builder-api-v1@1.9.5+c88702897d
+	- fabric-object-builders-v0@0.7.2+ca58154a7d
+	- fabric-particles-v1@0.2.4+ca58154a7d
+	- fabric-registry-sync-v0@0.7.4+ca58154a7d
+	- fabric-renderer-api-v1@0.4.3+0ef801b67d
+	- fabric-renderer-indigo@0.4.4+ca58154a7d
+	- fabric-renderer-registries-v1@2.3.0+2868a2287d
+	- fabric-rendering-data-attachment-v1@0.1.5+ca58154a7d
+	- fabric-rendering-fluids-v1@0.1.13+ca58154a7d
+	- fabric-rendering-v0@1.1.2+ca58154a7d
+	- fabric-rendering-v1@1.6.0+2868a2287d
+	- fabric-resource-loader-v0@0.4.6+2868a2287d
+	- fabric-screen-api-v1@1.0.0+c045166c7d
+	- fabric-screen-handler-api-v1@1.1.5+9354966b7d
+	- fabric-structure-api-v1@1.1.11+ca0ef93d7d
+	- fabric-tag-extensions-v0@1.1.1+ca58154a7d
+	- fabric-textures-v0@1.0.6+ca58154a7d
+	- fabric-tool-attribute-api-v1@1.2.7+8183d3957d
+	- fabricasmtools@0.3.2
+	- fabricloader@0.11.6
+	- fiber@0.23.0-2
+	- ftc@1.0.5
+	- gbfabrictools@1.3.2+1.16.4
+	- grossfabrichacks@1.1.0
+	- inventorio@1.4.3
+	- io_activej_activej-codegen@4.2
+	- io_activej_activej-serializer@4.2
+	- java@8
+	- libcd@3.0.3+1.16.3
+	- lightoverlay@5.8.1
+	- limitless@1.1.4
+	- lithium@0.6.6
+	- minecraft@1.16.5
+	- modmenu@1.16.9
+	- mousewheelie@1.7.3-newconfig+mc1.16.5
+	- musica@1.0.0
+	- net_bytebuddy_byte-buddy-agent@1.10.20
+	- net_gudenau_lib_unsafe@1.4.1
+	- no-potion-offset@${version}
+	- okzoomer@4.0.1+1.16.2
+	- org_jetbrains_annotations@17.0.0
+	- org_jetbrains_kotlin_kotlin-reflect@1.5.10
+	- org_jetbrains_kotlin_kotlin-stdlib@1.5.10
+	- org_jetbrains_kotlin_kotlin-stdlib-jdk7@1.5.10
+	- org_jetbrains_kotlin_kotlin-stdlib-jdk8@1.5.10
+	- org_jetbrains_kotlinx_kotlinx-coroutines-core@1.3.7
+	- org_jetbrains_kotlinx_kotlinx-coroutines-core-jvm@1.5.0
+	- org_jetbrains_kotlinx_kotlinx-coroutines-jdk8@1.5.0
+	- org_jetbrains_kotlinx_kotlinx-serialization-core-jvm@1.2.1
+	- org_jetbrains_kotlinx_kotlinx-serialization-json-jvm@1.2.1
+	- org_slf4j_slf4j-api@1.7.29
+	- pandamc_concreteplus@1.8
+	- phormat@1.0.0
+	- phosphor@0.7.2+build.12
+	- reeses-sodium-options@1.0.4
+	- rftl@1.0.0
+	- roughlyenoughitems@5.12.248
+	- roughlyenoughitems-api@5.12.248
+	- roughlyenoughitems-default-plugin@5.12.248
+	- roughlyenoughitems-runtime@5.12.248
+	- roughlyenoughresources@2.1.5
+	- sakurarosea@1.6.0-MC1.16.3-fabric
+	- smoothboot@1.16.5-1.6.0
+	- sodium@0.2.0+build.4
+	- sodium-extra@0.3.2
+	- stacc@1.0-SNAPSHOT
+	- stendhal@1.1.0
+	- stoneholm@1.2.3
+	- torohealth@1.16.4-fabric-4
+	- tweed4_annotated@1.0.0
+	- tweed4_base@1.0.0
+	- tweed4_data@1.0.0
+	- tweed4_data_hjson@1.0.0
+	- tweed4_tailor_coat@1.0.0
+	- tweed4_tailor_screen@1.0.0
+	- user11681_reflect@1.3.0
+	- user11681_shortcode@0.4.0
+	- vistas@1.3.2
+	- waila@1.9.22
+	- waterdripsound@0.2.1-1.16
+	- whereisit@1.11.7
+	- windchimes@1.1.1
+[20:36:48] [main/WARN]: Mod `no-potion-offset` (${version}) does not respect SemVer - comparison support is limited.
+[20:36:48] [main/WARN]: Mod `appleskin` (mc1.16.4-2.0.0) does not respect SemVer - comparison support is limited.
+[20:36:48] [main/INFO]: no good? no, this man is definitely up to evil.
+[20:36:49] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.2 Source=file:/home/archy/.local/share/multimc/libraries/net/fabricmc/sponge-mixin/0.9.4+mixin.0.8.2/sponge-mixin-0.9.4+mixin.0.8.2.jar Service=Knot/Fabric Env=CLIENT
+[20:36:49] [main/INFO]: Loaded configuration file for Sodium: 24 options available, 1 override(s) found
+[20:36:49] [main/INFO]: Loaded configuration file for Lithium: 80 options available, 0 override(s) found
+[20:36:49] [main/WARN]: Reference map 'coat-refmap.json' for coat.mixins.json could not be read. If this is a development environment you can ignore this message
+[20:36:49] [main/WARN]: Reference map 'wraith-musica-refmap.json' for musica.mixins.json could not be read. If this is a development environment you can ignore this message
+[20:36:49] [main/WARN]: Force-disabling mixin 'features.model.MixinMultipartBakedModel' as rule 'mixin.features.model' (added by mods [dashloader]) disables it and children
+[20:36:49] [main/WARN]: @Mixin target net/minecraft/class_327$class_5232 is public in phormat.mixins.json:TextRendererDrawerMixin and should be specified in value
+[20:36:49] [main/WARN]: @Mixin target net/minecraft/class_1097$class_1099 is public in fabric-renderer-api-v1.mixins.json:client.WeightedBakedModelEntryAccessor and should be specified in value
+[20:36:50] [main/WARN]: @Mixin target net/minecraft/class_3898$class_3208 is public in fabric-networking-api-v1.mixins.json:accessor.EntityTrackerAccessor and should be specified in value
+[20:36:50] [main/WARN]: @Mixin target net/minecraft/class_702$class_4090 is public in fabric-particles-v1.mixins.json:ParticleManagerAccessor$SimpleSpriteProviderAccessor and should be specified in value
+[20:36:50] [main/WARN]: Error loading class: net/guavy/gravestones/block/GravestoneBlock (java.lang.ClassNotFoundException: net/guavy/gravestones/block/GravestoneBlock)
+[20:36:50] [main/WARN]: @Mixin target net.guavy.gravestones.block.GravestoneBlock was not found inventorio.mixins.json:integration.gravestones.GravestoneBlockMixin
+[20:36:50] [main/WARN]: Error loading class: mezz/jei/plugins/vanilla/VanillaPlugin (java.lang.ClassNotFoundException: mezz/jei/plugins/vanilla/VanillaPlugin)
+[20:36:50] [main/WARN]: @Mixin target mezz.jei.plugins.vanilla.VanillaPlugin was not found inventorio.mixins.json:integration.jei.JEIVanillaPluginMixin
+[20:36:50] [main/INFO]: Smooth Boot config initialized
+[20:36:51] [main/WARN]: @Redirect conflict. Skipping inventorio.mixins.json:optional.totem.LivingEntityMixin->@Redirect::inventorioGetTotemFromUtilityBar(Lnet/minecraft/class_1309;Lnet/minecraft/class_1268;)Lnet/minecraft/class_1799; with priority 1000, already redirected by charm.mixins.json:LivingEntityMixin->@Redirect::hookTryUseTotem(Lnet/minecraft/class_1309;Lnet/minecraft/class_1268;)Lnet/minecraft/class_1799; with priority 1000
+[20:36:54] [main/INFO]: Creating DashLoader Instance
+[20:36:54] [main/INFO]: Created DashLoader with classloader: UnsafeKnotClassLoader
+[20:36:54] [main/INFO]: Starting DashLoader thread.
+[20:36:54] [dashloader-supervisor/INFO]: [110ms] Initialized api.
+[20:36:54] [dashloader-supervisor/INFO]: [3/4]  Started Serializer init.
+[20:36:54] [dashloader-thread-1/INFO]: [STDERR]: SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+[20:36:54] [dashloader-thread-1/INFO]: [STDERR]: SLF4J: Defaulting to no-operation (NOP) logger implementation
+[20:36:54] [dashloader-thread-1/INFO]: [STDERR]: SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+[20:36:54] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[20:36:54] [dashloader-supervisor/INFO]: [3/4] [394ms] Created Serializers.
+[20:36:54] [dashloader-supervisor/INFO]: [4/4] Launching DashCache.
+[20:36:54] [dashloader-supervisor/INFO]: Starting DashLoader Deserialization
+[20:36:55] [dashloader-supervisor/INFO]:       Loading Registry
+[20:36:55] [dashloader-supervisor/INFO]: [1/7] Loading Simple Objects
+[20:36:56] [dashloader-supervisor/INFO]: [2/7] Loading Properties
+[20:36:56] [dashloader-supervisor/INFO]: [3/7] Loading Advanced Objects
+[20:36:56] [dashloader-supervisor/INFO]: [4/7] Loading 12965 Models: [0]
+[20:36:56] [dashloader-supervisor/INFO]: [5/7] Loading 3534 Models: [1]
+[20:36:56] [dashloader-supervisor/INFO]: [6/7] Loading 31998 Models: [2]
+[20:36:56] [dashloader-supervisor/INFO]: [7/7] Applying Model Overrides
+[20:36:56] [main/INFO]: Setting user: catforcuddle
+[20:36:56] [dashloader-supervisor/INFO]:       Loading Mappings
+[20:36:56] [main/INFO]: [STDOUT]: [Stacc] initialized!
+[20:36:56] [main/INFO]: [RER] RoughlyEnoughPacketSize?  Possibly.
+[20:36:56] [dashloader-supervisor/INFO]:     Loaded DashLoader
+[20:36:56] [dashloader-supervisor/INFO]: Loaded cache in 2.4s
+[20:36:56] [main/INFO]: Discovered plugin waila:core provided by waila at mcp.mobius.waila.addons.core.PluginCore
+[20:36:56] [main/INFO]: Discovered plugin waila:vanilla provided by waila at mcp.mobius.waila.addons.minecraft.PluginMinecraft
+[20:36:56] [main/INFO]: Registering plugin at mcp.mobius.waila.addons.core.PluginCore
+[20:36:56] [main/INFO]: Registering plugin at mcp.mobius.waila.addons.minecraft.PluginMinecraft
+[20:36:58] [main/INFO]: REI Found
+[20:36:58] [main/INFO]: [Stendhal] Initializing
+[20:36:58] [main/INFO]: Setting up a new Charm-based module 'charm'
+[20:36:58] [main/INFO]: Initialising module Acquisition
+[20:36:58] [main/INFO]: Initialising module AerialAffinity
+[20:36:58] [main/INFO]: Initialising module AnvilImprovements
+[20:36:58] [main/INFO]: Initialising module ArmorInvisibility
+[20:36:58] [main/INFO]: Initialising module Atlas
+[20:36:58] [main/INFO]: Initialising module AutoRestock
+[20:36:58] [main/INFO]: Initialising module AutomaticRecipeUnlock
+[20:36:58] [main/INFO]: Initialising module BatBuckets
+[20:36:58] [main/INFO]: Initialising module BeaconsHealMobs
+[20:36:58] [main/INFO]: Initialising module Beekeepers
+[20:36:58] [main/INFO]: Initialising module BlockOfEnderPearls
+[20:36:58] [main/INFO]: Initialising module BlockOfGunpowder
+[20:36:58] [main/INFO]: Initialising module BlockOfSugar
+[20:36:58] [main/INFO]: Initialising module Bookcases
+[20:36:58] [main/INFO]: Initialising module CampfiresNoDamage
+[20:36:58] [main/INFO]: Initialising module Candles
+[20:36:58] [main/INFO]: Initialising module CaveSpidersDropCobwebs
+[20:36:58] [main/INFO]: Initialising module ChickensDropFeathers
+[20:36:58] [main/INFO]: Initialising module CoralSeaLanterns
+[20:36:58] [main/INFO]: Initialising module CoralSquids
+[20:36:58] [main/INFO]: Initialising module Core
+[20:36:58] [main/INFO]: Initialising module Crates
+[20:36:58] [main/INFO]: Initialising module DecreaseRepairCost
+[20:36:58] [main/INFO]: Initialising module DirtToPath
+[20:36:58] [main/INFO]: Initialising module EndermitePowder
+[20:36:58] [main/INFO]: Initialising module EntitySpawners
+[20:36:58] [main/INFO]: Initialising module ExtendNetherite
+[20:36:58] [main/INFO]: Initialising module ExtraRecipes
+[20:36:58] [main/INFO]: Initialising module ExtractEnchantments
+[20:36:58] [main/INFO]: Initialising module FeatherFallingCrops
+[20:36:58] [main/INFO]: Initialising module Glowballs
+[20:36:58] [main/INFO]: Initialising module GoldBars
+[20:36:58] [main/INFO]: Initialising module GoldChains
+[20:36:58] [main/INFO]: Initialising module GoldLanterns
+[20:36:58] [main/INFO]: Initialising module HoeHarvesting
+[20:36:58] [main/INFO]: Initialising module HuskImprovements
+[20:36:58] [main/INFO]: Initialising module InventoryTidying
+[20:36:58] [main/INFO]: Initialising module Kilns
+[20:36:58] [main/INFO]: Initialising module Lumberjacks
+[20:36:58] [main/INFO]: Initialising module MapTooltips
+[20:36:58] [main/INFO]: Initialising module MineshaftImprovements
+[20:36:58] [main/INFO]: Initialising module Mooblooms
+[20:36:58] [main/INFO]: Initialising module MorePortalFrames
+[20:36:58] [main/INFO]: Initialising module MoreVillageBiomes
+[20:36:58] [main/INFO]: Initialising module MusicImprovements
+[20:36:58] [main/INFO]: Initialising module NetheriteNuggets
+[20:36:58] [main/INFO]: Initialising module ParrotsStayOnShoulder
+[20:36:58] [main/INFO]: Initialising module PathToDirt
+[20:36:58] [main/INFO]: Initialising module PlayerPressurePlates
+[20:36:58] [main/INFO]: Initialising module PlayerState
+[20:36:58] [main/INFO]: Initialising module PortableCrafting
+[20:36:58] [main/INFO]: Initialising module PortableEnderChest
+[20:36:58] [main/INFO]: Initialising module RaidHorns
+[20:36:58] [main/INFO]: Initialising module RedstoneLanterns
+[20:36:58] [main/INFO]: Initialising module RedstoneSand
+[20:36:58] [main/INFO]: Initialising module RefinedObsidian
+[20:36:58] [main/INFO]: Initialising module RemoveNitwits
+[20:36:58] [main/INFO]: Initialising module RemovePotionGlint
+[20:36:58] [main/INFO]: Initialising module ShulkerBoxTooltips
+[20:36:58] [main/INFO]: Initialising module SleepImprovements
+[20:36:58] [main/INFO]: Initialising module SmoothGlowstone
+[20:36:58] [main/INFO]: Initialising module SnowStorms
+[20:36:58] [main/INFO]: Initialising module StackableEnchantedBooks
+[20:36:58] [main/INFO]: Initialising module StackablePotions
+[20:36:58] [main/INFO]: Initialising module StackableStews
+[20:36:58] [main/INFO]: Initialising module StrayImprovements
+[20:36:58] [main/INFO]: Initialising module TamedAnimalsNoDamage
+[20:36:58] [main/INFO]: Initialising module Tinted
+[20:36:58] [main/INFO]: Initialising module UseTotemFromInventory
+[20:36:58] [main/INFO]: Initialising module VariantBarrels
+[20:36:58] [main/INFO]: Initialising module VariantBookshelves
+[20:36:58] [main/INFO]: Initialising module VariantChests
+[20:36:58] [main/INFO]: Initialising module VariantLadders
+[20:36:58] [main/INFO]: Initialising module VariantMobTextures
+[20:36:58] [main/INFO]: Initialising module VillagersFollowEmeraldBlocks
+[20:36:58] [main/INFO]: Initialising module WanderingTraderImprovements
+[20:36:58] [main/INFO]: Initialising module WitchesDropLuck
+[20:36:58] [main/INFO]: Initialising module Woodcutters
+[20:36:58] [main/INFO]: Done setting up 'charm'
+[20:36:58] [main/INFO]: [Musica] has successfully been loaded!
+[20:36:59] [main/ERROR]: Error enabling the Mod Menu config button for Hwyla
+java.lang.ClassNotFoundException: io.github.prospector.modmenu.ModMenu
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:382) ~[?:1.8.0_291]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:418) ~[?:1.8.0_291]
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:355) ~[?:1.8.0_291]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:351) ~[?:1.8.0_291]
+	at net.fabricmc.loader.launch.knot.UnsafeKnotClassLoader.loadClass(UnsafeKnotClassLoader.java:50) ~[f6cbb9ae-b906-4d2d-b274-decf3425dd35.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:351) ~[?:1.8.0_291]
+	at java.lang.Class.forName0(Native Method) ~[?:1.8.0_291]
+	at java.lang.Class.forName(Class.java:264) ~[?:1.8.0_291]
+	at mcp.mobius.waila.WailaClient.enableModMenuConfig(WailaClient.java:37) ~[Hwyla-fabric-1.16.2-1.9.23-79.jar:?]
+	at mcp.mobius.waila.WailaClient.onInitializeClient(WailaClient.java:32) ~[Hwyla-fabric-1.16.2-1.9.23-79.jar:?]
+	at net.fabricmc.loader.entrypoint.minecraft.hooks.EntrypointUtils.invoke0(EntrypointUtils.java:47) [fabric-loader-0.11.6.jar:?]
+	at net.fabricmc.loader.entrypoint.minecraft.hooks.EntrypointUtils.invoke(EntrypointUtils.java:33) [fabric-loader-0.11.6.jar:?]
+	at net.fabricmc.loader.entrypoint.minecraft.hooks.EntrypointClient.start(EntrypointClient.java:34) [fabric-loader-0.11.6.jar:?]
+	at net.minecraft.class_310.<init>(class_310.java:437) [intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.client.main.Main.main(Main.java:177) [intermediary-minecraft-1.16.5-client.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_291]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_291]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_291]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_291]
+	at net.fabricmc.loader.game.MinecraftGameProvider.launch(MinecraftGameProvider.java:234) [fabric-loader-0.11.6.jar:?]
+	at net.fabricmc.loader.launch.knot.Knot.launch(Knot.java:153) [fabric-loader-0.11.6.jar:?]
+	at net.fabricmc.loader.launch.knot.KnotClient.main(KnotClient.java:28) [fabric-loader-0.11.6.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_291]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_291]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_291]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_291]
+	at org.multimc.onesix.OneSixLauncher.launchWithMainClass(OneSixLauncher.java:196) [NewLaunch.jar:?]
+	at org.multimc.onesix.OneSixLauncher.launch(OneSixLauncher.java:231) [NewLaunch.jar:?]
+	at org.multimc.EntryPoint.listen(EntryPoint.java:143) [NewLaunch.jar:?]
+	at org.multimc.EntryPoint.main(EntryPoint.java:34) [NewLaunch.jar:?]
+[20:36:59] [main/INFO]: Reloaded configs for mousewheelie (universal/highest)
+[20:36:59] [main/WARN]: WARNING! Mod roughlyenoughitems-api is only using deprecated 'modmenu:parent' custom value! This will be removed in 1.18 snapshots, so ask the author of this mod to support the new API.
+[20:36:59] [main/WARN]: WARNING! Mod crowdin-translate is only using deprecated 'modmenu:api' custom value! This will be removed in 1.18 snapshots, so ask the author of this mod to support the new API.
+[20:36:59] [main/WARN]: WARNING! Mod torohealth is only using deprecated 'modmenu:clientsideOnly' custom value! This is no longer needed and will be removed in 1.18 snapshots.
+[20:36:59] [main/WARN]: WARNING! Mod fiber is only using deprecated 'modmenu:api' custom value! This will be removed in 1.18 snapshots, so ask the author of this mod to support the new API.
+[20:36:59] [main/WARN]: WARNING! Mod phormat is only using deprecated 'modmenu:api' custom value! This will be removed in 1.18 snapshots, so ask the author of this mod to support the new API.
+[20:36:59] [main/WARN]: WARNING! Mod fabricasmtools is only using deprecated 'modmenu:api' custom value! This will be removed in 1.18 snapshots, so ask the author of this mod to support the new API.
+[20:36:59] [main/WARN]: WARNING! Mod roughlyenoughitems-runtime is only using deprecated 'modmenu:parent' custom value! This will be removed in 1.18 snapshots, so ask the author of this mod to support the new API.
+[20:36:59] [main/WARN]: WARNING! Mod cloth-client-events-v0 is only using deprecated 'modmenu:parent' custom value! This will be removed in 1.18 snapshots, so ask the author of this mod to support the new API.
+[20:36:59] [main/WARN]: WARNING! Mod cloth-client-events-v0 is only using deprecated 'modmenu:clientsideOnly' custom value! This is no longer needed and will be removed in 1.18 snapshots.
+[20:36:59] [main/WARN]: WARNING! Mod cloth-client-events-v0 is only using deprecated 'modmenu:api' custom value! This will be removed in 1.18 snapshots, so ask the author of this mod to support the new API.
+[20:36:59] [main/WARN]: WARNING! Mod mousewheelie is only using deprecated 'modmenu:clientsideOnly' custom value! This is no longer needed and will be removed in 1.18 snapshots.
+[20:36:59] [main/WARN]: WARNING! Mod architectury is only using deprecated 'modmenu:api' custom value! This will be removed in 1.18 snapshots, so ask the author of this mod to support the new API.
+[20:36:59] [main/WARN]: WARNING! Mod lightoverlay is only using deprecated 'modmenu:clientsideOnly' custom value! This is no longer needed and will be removed in 1.18 snapshots.
+[20:36:59] [main/WARN]: WARNING! Mod gbfabrictools is only using deprecated 'modmenu:api' custom value! This will be removed in 1.18 snapshots, so ask the author of this mod to support the new API.
+[20:36:59] [main/WARN]: WARNING! Mod libcd is only using deprecated 'modmenu:api' custom value! This will be removed in 1.18 snapshots, so ask the author of this mod to support the new API.
+[20:36:59] [main/WARN]: WARNING! Mod grossfabrichacks is only using deprecated 'modmenu:api' custom value! This will be removed in 1.18 snapshots, so ask the author of this mod to support the new API.
+[20:36:59] [main/WARN]: WARNING! Mod roughlyenoughitems-default-plugin is only using deprecated 'modmenu:parent' custom value! This will be removed in 1.18 snapshots, so ask the author of this mod to support the new API.
+[20:36:59] [main/WARN]: WARNING! Mod cloth-basic-math is only using deprecated 'modmenu:api' custom value! This will be removed in 1.18 snapshots, so ask the author of this mod to support the new API.
+[20:36:59] [main/WARN]: WARNING! Mod autoconfig1u is only using deprecated 'modmenu:api' custom value! This will be removed in 1.18 snapshots, so ask the author of this mod to support the new API.
+[20:36:59] [main/WARN]: WARNING! Mod fabric-mumblelink-mod is only using deprecated 'modmenu:clientsideOnly' custom value! This is no longer needed and will be removed in 1.18 snapshots.
+[20:36:59] [main/INFO]: Config loaded.
+[20:36:59] [main/INFO]: Setting up client modules for 'charm'
+[20:37:00] [main/INFO]: Initialising module AtlasClient
+[20:37:00] [main/INFO]: Initialising module BatBucketsClient
+[20:37:00] [main/INFO]: Initialising module BookcasesClient
+[20:37:00] [main/INFO]: Initialising module CoralSquidsClient
+[20:37:00] [main/INFO]: Initialising module CoreClient
+[20:37:00] [main/INFO]: Initialising module CratesClient
+[20:37:00] [main/INFO]: Initialising module EndermitePowderClient
+[20:37:00] [main/INFO]: Initialising module EntitySpawnersClient
+[20:37:00] [main/INFO]: Initialising module ExtractEnchantmentsClient
+[20:37:00] [main/INFO]: Initialising module GlowballsClient
+[20:37:00] [main/INFO]: Initialising module GoldBarsClient
+[20:37:00] [main/INFO]: Initialising module GoldChainsClient
+[20:37:00] [main/INFO]: Initialising module GoldLanternsClient
+[20:37:00] [main/INFO]: Initialising module InventoryTidyingClient
+[20:37:00] [main/INFO]: Initialising module KilnsClient
+[20:37:00] [main/INFO]: Initialising module MapTooltipsClient
+[20:37:00] [main/INFO]: Initialising module MoobloomsClient
+[20:37:00] [main/INFO]: Initialising module MusicImprovementsClient
+[20:37:00] [main/INFO]: Initialising module PlayerStateClient
+[20:37:00] [main/INFO]: Initialising module PortableCraftingClient
+[20:37:00] [main/INFO]: Initialising module PortableEnderChestClient
+[20:37:00] [main/INFO]: Initialising module RedstoneLanternsClient
+[20:37:00] [main/INFO]: Initialising module ShulkerBoxTooltipsClient
+[20:37:00] [main/INFO]: Initialising module SnowStormsClient
+[20:37:00] [main/INFO]: Initialising module VariantChestsClient
+[20:37:00] [main/INFO]: Initialising module VariantLaddersClient
+[20:37:00] [main/INFO]: Initialising module VariantMobTexturesClient
+[20:37:00] [main/INFO]: Initialising module WoodcuttersClient
+[20:37:00] [main/INFO]: Done setting up client modules for 'charm'
+[20:37:00] [main/INFO]: [Indigo] Different rendering plugin detected; not applying Indigo.
+[20:37:00] [main/WARN]: Skipping bad option: key_inventorio.keys.use_utility:key.keyboard.left.alt
+[20:37:00] [main/WARN]: Skipping bad option: key_inventorio.keys.rocket_boost:key.keyboard.unknown
+[20:37:00] [main/INFO]: Backend library: LWJGL version 3.2.2 build 10
+[20:37:02] [main/WARN]: ERROR : Couldn't load Narrator library : Unable to load library 'fliteWrapper': Native library (linux-x86-64/libfliteWrapper.so) not found in resource path (/usr/share/multimc/jars/NewLaunch.jar:/home/archy/.local/share/multimc/libraries/org/lwjgl/lwjgl-glfw/3.2.2/lwjgl-glfw-3.2.2.jar:/home/archy/.local/share/multimc/libraries/org/lwjgl/lwjgl-jemalloc/3.2.2/lwjgl-jemalloc-3.2.2.jar:/home/archy/.local/share/multimc/libraries/org/lwjgl/lwjgl-openal/3.2.2/lwjgl-openal-3.2.2.jar:/home/archy/.local/share/multimc/libraries/org/lwjgl/lwjgl-opengl/3.2.2/lwjgl-opengl-3.2.2.jar:/home/archy/.local/share/multimc/libraries/org/lwjgl/lwjgl-stb/3.2.2/lwjgl-stb-3.2.2.jar:/home/archy/.local/share/multimc/libraries/org/lwjgl/lwjgl-tinyfd/3.2.2/lwjgl-tinyfd-3.2.2.jar:/home/archy/.local/share/multimc/libraries/org/lwjgl/lwjgl/3.2.2/lwjgl-3.2.2.jar:/home/archy/.local/share/multimc/libraries/com/mojang/patchy/1.1/patchy-1.1.jar:/home/archy/.local/share/multimc/libraries/oshi-project/oshi-core/1.1/oshi-core-1.1.jar:/home/archy/.local/share/multimc/libraries/net/java/dev/jna/jna/4.4.0/jna-4.4.0.jar:/home/archy/.local/share/multimc/libraries/net/java/dev/jna/platform/3.4.0/platform-3.4.0.jar:/home/archy/.local/share/multimc/libraries/com/ibm/icu/icu4j/66.1/icu4j-66.1.jar:/home/archy/.local/share/multimc/libraries/com/mojang/javabridge/1.0.22/javabridge-1.0.22.jar:/home/archy/.local/share/multimc/libraries/net/sf/jopt-simple/jopt-simple/5.0.3/jopt-simple-5.0.3.jar:/home/archy/.local/share/multimc/libraries/io/netty/netty-all/4.1.25.Final/netty-all-4.1.25.Final.jar:/home/archy/.local/share/multimc/libraries/com/google/guava/guava/21.0/guava-21.0.jar:/home/archy/.local/share/multimc/libraries/org/apache/commons/commons-lang3/3.5/commons-lang3-3.5.jar:/home/archy/.local/share/multimc/libraries/commons-io/commons-io/2.5/commons-io-2.5.jar:/home/archy/.local/share/multimc/libraries/commons-codec/commons-codec/1.10/commons-codec-1.10.jar:/home/archy/.local/share/multimc/libraries/com/mojang/brigadier/1.0.17/brigadier-1.0.17.jar:/home/archy/.local/share/multimc/libraries/com/mojang/datafixerupper/4.0.26/datafixerupper-4.0.26.jar:/home/archy/.local/share/multimc/libraries/com/google/code/gson/gson/2.8.0/gson-2.8.0.jar:/home/archy/.local/share/multimc/libraries/com/mojang/authlib/2.1.28/authlib-2.1.28.jar:/home/archy/.local/share/multimc/libraries/org/apache/commons/commons-compress/1.8.1/commons-compress-1.8.1.jar:/home/archy/.local/share/multimc/libraries/org/apache/httpcomponents/httpclient/4.3.3/httpclient-4.3.3.jar:/home/archy/.local/share/multimc/libraries/commons-logging/commons-logging/1.1.3/commons-logging-1.1.3.jar:/home/archy/.local/share/multimc/libraries/org/apache/httpcomponents/httpcore/4.3.2/httpcore-4.3.2.jar:/home/archy/.local/share/multimc/libraries/it/unimi/dsi/fastutil/8.2.1/fastutil-8.2.1.jar:/home/archy/.local/share/multimc/libraries/org/apache/logging/log4j/log4j-api/2.8.1/log4j-api-2.8.1.jar:/home/archy/.local/share/multimc/libraries/org/apache/logging/log4j/log4j-core/2.8.1/log4j-core-2.8.1.jar:/home/archy/.local/share/multimc/libraries/com/mojang/text2speech/1.11.3/text2speech-1.11.3.jar:/home/archy/.local/share/multimc/libraries/net/fabricmc/intermediary/1.16.5/intermediary-1.16.5.jar:/home/archy/.local/share/multimc/libraries/net/fabricmc/tiny-mappings-parser/0.2.2.14/tiny-mappings-parser-0.2.2.14.jar:/home/archy/.local/share/multimc/libraries/net/fabricmc/sponge-mixin/0.9.4+mixin.0.8.2/sponge-mixin-0.9.4+mixin.0.8.2.jar:/home/archy/.local/share/multimc/libraries/net/fabricmc/tiny-remapper/0.4.2/tiny-remapper-0.4.2.jar:/home/archy/.local/share/multimc/libraries/net/fabricmc/access-widener/1.0.0/access-widener-1.0.0.jar:/home/archy/.local/share/multimc/libraries/net/fabricmc/fabric-loader-sat4j/2.3.5.4/fabric-loader-sat4j-2.3.5.4.jar:/home/archy/.local/share/multimc/libraries/com/google/jimfs/jimfs/1.2-fabric/jimfs-1.2-fabric.jar:/home/archy/.local/share/multimc/libraries/org/ow2/asm/asm/9.1/asm-9.1.jar:/home/archy/.local/share/multimc/libraries/org/ow2/asm/asm-analysis/9.1/asm-analysis-9.1.jar:/home/archy/.local/share/multimc/libraries/org/ow2/asm/asm-commons/9.1/asm-commons-9.1.jar:/home/archy/.local/share/multimc/libraries/org/ow2/asm/asm-tree/9.1/asm-tree-9.1.jar:/home/archy/.local/share/multimc/libraries/org/ow2/asm/asm-util/9.1/asm-util-9.1.jar:/home/archy/.local/share/multimc/libraries/net/fabricmc/fabric-loader/0.11.6/fabric-loader-0.11.6.jar:/home/archy/.local/share/multimc/libraries/com/mojang/minecraft/1.16.5/minecraft-1.16.5-client.jar)
+[20:37:02] [main/INFO]: Reloading ResourceManager: Default, Fabric Mods (Fabric Key Bindings (v0), Fabric Loader, Fabric Dimensions API (v1), ToroHealth Damage Indicators, Fabric Game Rule API (v1), tweed4_tailor_screen, Fabric API Base, ClickThrough, phormat, Roughly Enough Resources, Hwyla, Fabric BlockRenderLayer Registration (v1), tweed4_base, Fabric API, Fabric Networking (v0), Fabric API Lookup API (v1), Fabric Screen Handler API (v1), Mod Menu, Sodium Extra, Phosphor, Fabric Tool Attribute API (v1), Edit Sign, REI (Runtime), Reese's Sodium Options, Blockus, Fabric Crash Report Info (v1), Fabric Title Changer, Where Is It, Fabric Events Interaction (v0), Fabric Language Kotlin, Fabric Key Binding API (v1), Mouse Wheelie, Cloth Config v4, Fabric Resource Loader (v0), Stendhal, Fabric Commands (v0), Fabric Registry Sync (v0), Light Overlay, Sakura Rosea, Fabric Mining Levels (v0), Fabric Networking API (v1), Charm, Fabric Item Groups (v0), Fabric Models (v0), Musica, tweed4_tailor_coat, Windchimes, Fabric Renderer API (v1), Drip Sounds, Clear Despawn, GBfabrictools, LibCapableData, Fabric Structure API (v1), Fabric Containers (v0), Lithium, Fabric Object Builder API (v1), Rotten Flesh To Leather, Fabric Rendering Data Attachment (v1), Concrete plus, Stoneholm, tweed4_data_hjson, Fabric Textures (v0), Fabric Rendering Fluids (v1), Fabric Lifecycle Events (v1), Coat, Sodium, Fabric Renderer Registries (v1), Fabric Loot Tables (v1), tweed4_annotated, Dynamic FPS, Fabric Particles (v1), Fabric Networking Block Entity (v0), Ok Zoomer, Fabric Command API (v1), DashLoader, Amecs API, Fabric Screen API (v1), Fabric Renderer - Indigo, Inventorio, Smooth Boot, Dark Loading Screen, Roughly Enough Items, Fabric Item API (v1), limitless, Fabric Entity Events (v1), tweed4_data, Fabric Rendering (v0), Fabric Rendering (v1), Vistas, Auto Config v1 Updated, Fabric Content Registries (v0), Fabric Tag Extensions (v0), Extra Sounds, Fabric Biome API (v1), AppleSkin, Fabric Events Lifecycle (v0), Fabric Object Builders (v0), common formatting, MumbleLink), wholsom
+[20:37:02] [main/INFO]: [STDOUT]: Inject generated resource packs.
+[20:37:02] [main/INFO]: Particles loading
+[20:37:02] [main/INFO]: OpenAL initialized.
+[20:37:02] [main/INFO]: Sound engine started
+[20:37:02] [main/INFO]: Allocated: 256x256x0 minecraft:textures/atlas/particles.png-atlas
+[20:37:02] [main/INFO]: Allocated: 2048x1024x4 minecraft:textures/atlas/blocks.png-atlas
+[20:37:02] [main/INFO]: Allocated: 256x128x4 minecraft:textures/atlas/signs.png-atlas
+[20:37:02] [main/INFO]: Allocated: 1024x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[20:37:02] [main/INFO]: Allocated: 1024x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[20:37:02] [main/INFO]: Allocated: 1024x512x4 minecraft:textures/atlas/chest.png-atlas
+[20:37:02] [main/INFO]: Allocated: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[20:37:02] [main/INFO]: Allocated: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[20:37:02] [main/INFO]: Allocated: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[20:37:02] [main/INFO]: Allocated: 256x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[20:37:03] [main/INFO]: Reloaded configs for mousewheelie (client/smallest)
+[20:37:14] [main/INFO]: Connecting to 192.168.2.8, 43607
+[20:37:17] [main/INFO]: Started 12 worker threads
+[20:37:17] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[20:37:17] [main/INFO]: Requested config sync for mousewheelie
+[20:37:17] [main/INFO]: Linking to VoIP client...
+[20:37:17] [main/INFO]: Linked
+[20:37:17] [REI-SyncRecipes/INFO]: Reloading REI, registered 5 plugins: roughlyenoughitems:default_runtime_plugin, charm:rei_plugin, musica:rei_plugin, roughlyenoughresources:rer_plugin, roughlyenoughitems:default_plugin
+[20:37:18] [REI-SyncRecipes/INFO]: Applied Check Tags for potion in 21ms.
+[20:37:18] [REI-SyncRecipes/INFO]: Reloaded 2420 stack entries, 11346 recipes displays, 3 exclusion zones suppliers, 5 overlay deciders, 1 visibility handlers and 24 categories (Crafting, Smelting, Smoking, Blasting, Campfire, Stone Cutting, Fuel, Brewing, Composting, Stripping, Smithing, Beacon Base, Beacon Payment, Tilling, Pathing, Information, Overworld Generation, The End Generation, The Nether Generation, Block Loot Drop, Entity Loot Drop, Song Mixing, Wood Cutting, Firing) in 225ms.
+[20:37:20] [main/INFO]: Loaded 912 advancements
+[20:37:20] [main/INFO]: [CHAT] Fixaxd joined the game
+[20:37:21] [Worker-Main-4/ERROR]: Signature is missing from textures payload
+[20:37:33] [main/INFO]: [CHAT] Fixaxd left the game
+[20:37:35] [main/INFO]: [CHAT] yoo1 joined the game
+[20:38:09] [main/INFO]: [CHAT] Fixaxd joined the game
+[20:38:21] [main/INFO]: [CHAT] KevinHere joined the game
+[20:38:21] [main/WARN]: Unable to play empty soundEvent: minecraft:entity.salmon.ambient
+[20:38:25] [main/INFO]: [CHAT] <Fixaxd> finally
+[20:38:28] [main/INFO]: [CHAT] <Johnystar_CZ> moje iq je ꝏ
+[20:38:28] [main/INFO]: [CHAT] <Fixaxd> jsem doma
+[20:39:07] [main/INFO]: [CHAT] <Fixaxd> ježis
+[20:39:11] [main/INFO]: [CHAT] <Fixaxd> už zamnou jde
+[20:39:16] [main/INFO]: [CHAT] <Fixaxd> já ho asi zabiju mečem
+[20:39:22] [main/INFO]: [CHAT] <Johnystar_CZ> hoesom
+[20:39:34] [main/INFO]: [CHAT] <Johnystar_CZ> seks
+[20:39:36] [main/WARN]: Received passengers for unknown entity
+[20:40:24] [main/INFO]: [CHAT] <Fixaxd> kewin nahodil turbo
+[20:40:25] [main/INFO]: [CHAT] <Fixaxd> lo
+[20:40:27] [main/INFO]: [CHAT] <KevinHere> xdddddddd
+[20:40:34] [main/INFO]: [CHAT] <Fixaxd> já potřebuju víc gay blocků
+[20:40:35] [main/INFO]: [CHAT] MatesoN_ joined the game
+[20:40:38] [main/INFO]: [CHAT] <Fixaxd> MATESONE
+[20:40:38] [main/INFO]: [CHAT] <KevinHere> matesoneeeeeee
+[20:40:41] [main/INFO]: [CHAT] <Fixaxd> LEC GOU
+[20:40:59] [main/INFO]: [CHAT] <KevinHere> ty sviněěěě
+[20:41:04] [main/INFO]: [CHAT] <Fixaxd> matýsek tam má toho pepgáče
+[20:41:05] [main/INFO]: [CHAT] <Fixaxd> help
+[20:41:13] [main/INFO]: [CHAT] <KevinHere> lol
+[20:41:15] [main/INFO]: [CHAT] <KevinHere> rohlíkáč
+[20:42:08] [main/INFO]: [CHAT] <Fixaxd> jdeme se podívat k matesonovi
+[20:42:08] [main/INFO]: [CHAT] <Fixaxd> :)
+[20:42:12] [main/INFO]: [CHAT] <KevinHere> kde mám dům
+[20:42:14] [main/INFO]: [CHAT] <KevinHere> má
+[20:42:23] [main/INFO]: [CHAT] <Fixaxd> doma
+[20:42:44] [main/INFO]: [CHAT] <KevinHere> fixo
+[20:42:52] [main/INFO]: [CHAT] <Fixaxd> tsu
+[20:42:58] [main/INFO]: [CHAT] <KevinHere> kde jse
+[20:42:59] [main/INFO]: [CHAT] <KevinHere> s
+[20:43:03] [main/INFO]: Stopping worker threads
+[20:43:03] [main/INFO]: Started 12 worker threads
+[20:43:03] [main/INFO]: Stopping worker threads
+[20:43:03] [main/INFO]: Started 12 worker threads
+[20:43:03] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[20:43:03] [main/INFO]: [CHAT] yoo1 has made the advancement [We Need to Go Deeper]
+[20:43:08] [main/INFO]: [CHAT] <Fixaxd> yooo
+[20:43:11] [main/INFO]: [CHAT] <KevinHere> 1
+[20:44:02] [main/WARN]: Received passengers for unknown entity
+[20:44:02] [main/WARN]: Received passengers for unknown entity
+[20:44:02] [main/INFO]: [CHAT] <Fixaxd> matesone
+[20:44:06] [main/WARN]: Received passengers for unknown entity
+[20:44:10] [main/INFO]: [CHAT] <Fixaxd> kde je ta cesta k portalu
+[20:44:10] [main/INFO]: [CHAT] <Fixaxd> ?
+[20:45:30] [main/INFO]: Stopping worker threads
+[20:45:30] [main/INFO]: Started 12 worker threads
+[20:45:31] [main/INFO]: Stopping worker threads
+[20:45:31] [main/INFO]: Started 12 worker threads
+[20:45:31] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[20:46:03] [main/INFO]: [CHAT] <Fixaxd> guys
+[20:46:07] [main/INFO]: [CHAT] <Fixaxd> jdu adoptovat magma cube
+[20:46:09] [main/INFO]: [CHAT] <Fixaxd> :)
+[20:47:17] [main/INFO]: [CHAT] KevinHere was slain by Fixaxd
+[20:47:24] [main/INFO]: [CHAT] <Fixaxd> :c
+[20:47:31] [main/INFO]: [CHAT] <KevinHere> už zase vole
+[20:47:41] [main/INFO]: [CHAT] Fixaxd has completed the challenge [Serious Dedication]
+[20:47:47] [main/INFO]: [CHAT] <KevinHere> voleeeeeeeeeeeee
+[20:47:51] [main/INFO]: [CHAT] <yoo1> ...?
+[20:47:58] [main/INFO]: [CHAT] <KevinHere> neber mi věci ty svině
+[20:47:58] [main/INFO]: [CHAT] <catforcuddle> Netherite block?
+[20:48:47] [main/INFO]: [CHAT] <Johnystar_CZ> Asi nikdo bambus nemá, že?
+[20:48:54] [main/INFO]: [CHAT] <catforcuddle> nope
+[20:48:57] [main/INFO]: [CHAT] <Fixaxd> viděla jsem ho u klaksona
+[20:48:58] [main/INFO]: [CHAT] <Fixaxd> sus
+[20:49:07] [main/INFO]: [CHAT] <Johnystar_CZ> stačí mi i jen jeden
+[20:52:00] [main/INFO]: [CHAT] yoo1 has made the advancement [Ice Bucket Challenge]
+[20:53:35] [main/WARN]: Unable to play empty soundEvent: minecraft:entity.cod.ambient
+[21:05:45] [main/INFO]: [CHAT] yoo1 has made the advancement [Getting an Upgrade]
+[21:05:49] [main/INFO]: [CHAT] <Johnystar_CZ> gamer
+[21:05:52] [main/INFO]: [CHAT] <yoo1> uwu
+[21:05:54] [main/INFO]: [CHAT] <KevinHere> neasi
+[21:06:02] [main/INFO]: [CHAT] <Fixaxd> lec gou
+[21:06:05] [main/INFO]: [CHAT] <Fixaxd> už mám hotovej barák :D
+[21:06:10] [main/INFO]: [CHAT] <Fixaxd> už jenom přidat dekorace
+[21:06:15] [main/INFO]: [CHAT] <Johnystar_CZ> se mrknu pozdějc
+[21:13:18] [main/INFO]: [CHAT] <Fixaxd> už mám jiné jídlo než brambory Pog
+[21:13:43] [main/INFO]: [CHAT] <KevinHere> čau fixo
+[21:13:49] [main/INFO]: [CHAT] <KevinHere> vzkazuje viki
+[21:13:51] [main/INFO]: [CHAT] <Johnystar_CZ> je mi to líto, ale v 22 (možná chvílu pozdějc) by se mi hodilo končit
+[21:13:54] [main/INFO]: [CHAT] <Fixaxd> fixa tu neí
+[21:14:00] [main/INFO]: [CHAT] <MatesoN_> ok
+[21:14:01] [main/INFO]: [CHAT] <Fixaxd> není
+[21:14:04] [main/INFO]: [CHAT] <Fixaxd> ok
+[21:14:06] [main/INFO]: [CHAT] <Fixaxd> matesone
+[21:14:07] [main/INFO]: [CHAT] <KevinHere> ok
+[21:14:09] [main/INFO]: [CHAT] <MatesoN_> ano?
+[21:14:20] [main/INFO]: [CHAT] <Fixaxd> ukážeš mi cestu k tvému portálu
+[21:14:21] [main/INFO]: [CHAT] <Fixaxd> ?
+[21:14:23] [main/INFO]: [CHAT] <MatesoN_> ok
+[21:14:28] [main/INFO]: [CHAT] <Fixaxd> dám ti za to 32 mutton
+[21:14:30] [main/INFO]: [CHAT] <Fixaxd> :)
+[21:15:24] [main/INFO]: [CHAT] <MatesoN_> chvilku
+[21:15:31] [main/INFO]: [CHAT] <MatesoN_> trable s ghastem
+[21:15:35] [main/INFO]: [CHAT] <Fixaxd> lol
+[21:16:00] [main/INFO]: [CHAT] <MatesoN_> už jdu k hubu
+[21:16:07] [main/INFO]: [CHAT] <Fixaxd> ke mně domu :D
+[21:16:17] [main/INFO]: [CHAT] <Fixaxd> dělám si tady bžundu s klaksnovi segry
+[21:16:18] [main/INFO]: [CHAT] <Fixaxd> :)
+[21:16:21] [main/INFO]: [CHAT] <KevinHere> xd
+[21:16:29] [main/INFO]: [CHAT] <catforcuddle> *z Klaksonovy
+[21:16:31] [main/INFO]: [CHAT] <yoo1> *z
+[21:16:37] [main/INFO]: [CHAT] <catforcuddle> *ségry
+[21:16:39] [main/INFO]: [CHAT] <Fixaxd> ssshhhh
+[21:16:41] [main/INFO]: [CHAT] <yoo1> *sestry
+[21:16:43] [main/INFO]: [CHAT] <catforcuddle> **sestry
+[21:16:46] [main/INFO]: [CHAT] <Fixaxd> fuj čestina
+[21:16:48] [main/INFO]: [CHAT] <Fixaxd> its weird
+[21:16:49] [main/INFO]: [CHAT] <KevinHere> neasi
+[21:16:50] [main/INFO]: [CHAT] <catforcuddle> **bžunec
+[21:16:57] [main/INFO]: [CHAT] <Fixaxd> nechci ani umět mluvit
+[21:16:58] [main/INFO]: [CHAT] <catforcuddle> rožnout gang
+[21:16:59] [main/INFO]: [CHAT] <yoo1> *Fixa haha
+[21:17:01] [main/INFO]: [CHAT] <Fixaxd> natož to psát
+[21:17:02] [main/INFO]: [CHAT] <Fixaxd> rožnout
+[21:17:04] [main/INFO]: [CHAT] <Fixaxd> lec gou
+[21:17:16] [main/INFO]: [CHAT] <Fixaxd> tož cérky jak sa máte
+[21:17:17] [main/INFO]: [CHAT] <Fixaxd> ?
+[21:20:14] [main/INFO]: [CHAT] <Johnystar_CZ> ví Mateson, že je unmuted na Discordu?
+[21:20:21] [main/INFO]: [CHAT] <Fixaxd> asi ne
+[21:20:22] [main/INFO]: [CHAT] <Fixaxd> :D
+[21:20:23] [main/INFO]: [CHAT] <catforcuddle> Máme prvních 5 diamantů
+[21:20:23] [main/INFO]: [CHAT] <Johnystar_CZ> xdddd
+[21:20:27] [main/INFO]: [CHAT] <yoo1> :>
+[21:20:31] [main/INFO]: [CHAT] <Johnystar_CZ> @catforcuddle niice
+[21:20:36] [main/INFO]: [CHAT] <catforcuddle> díkdík
+[21:20:37] [main/INFO]: [CHAT] <Fixaxd> najs
+[21:20:38] [main/INFO]: [CHAT] <Fixaxd> slabý
+[21:20:39] [main/INFO]: [CHAT] <Fixaxd> ngl
+[21:20:42] [main/INFO]: [CHAT] <Johnystar_CZ> já si Matesona asi mutnu
+[21:20:43] [main/INFO]: [CHAT] <yoo1> jsem našel já :>
+[21:20:45] [main/INFO]: [CHAT] <catforcuddle> Ty sesh slabá
+[21:20:49] [main/INFO]: [CHAT] <yoo1> ouuuuuuu
+[21:20:49] [main/INFO]: [CHAT] <Fixaxd> já vím)
+[21:20:51] [main/INFO]: [CHAT] <Fixaxd> ;-;
+[21:20:53] [main/INFO]: [CHAT] <catforcuddle> damn
+[21:20:59] [main/INFO]: [CHAT] <yoo1> ☄
+[21:21:00] [main/INFO]: [CHAT] <catforcuddle> Dej si třeba
+[21:21:06] [main/INFO]: [CHAT] <catforcuddle> Celaskon
+[21:21:08] [main/INFO]: [CHAT] <yoo1> ❤
+[21:21:18] [main/INFO]: [CHAT] <yoo1> Claskon
+[21:21:21] [main/INFO]: [CHAT] <yoo1> Clakson
+[21:21:23] [main/INFO]: [CHAT] <yoo1> hahu
+[21:21:24] [main/INFO]: [CHAT] <Johnystar_CZ> ♬
+[21:21:27] [main/INFO]: [CHAT] <yoo1> ☺
+[21:21:45] [main/INFO]: [CHAT] <yoo1> 🔥
+[21:21:49] [main/INFO]: [CHAT] <yoo1> sheeeesh
+[21:22:09] [main/INFO]: [CHAT] <yoo1> ★ you tried
+[21:22:48] [main/INFO]: [CHAT] KevinHere has completed the challenge [Return to Sender]
+[21:22:59] [main/INFO]: [CHAT] <yoo1> 🔥
+[21:23:03] [main/INFO]: [CHAT] <KevinHere> lit
+[21:23:04] [main/INFO]: [CHAT] catforcuddle has made the advancement [A Seedy Place]
+[21:23:04] [main/INFO]: Loaded 912 advancements
+[21:23:10] [main/INFO]: [CHAT] <yoo1> tvoja prdel no
+[21:23:10] [main/INFO]: [CHAT] <catforcuddle> Chleba bude
+[21:23:16] [main/INFO]: [CHAT] yoo1 has made the advancement [A Seedy Place]
+[21:23:21] [main/INFO]: [CHAT] <yoo1> owo
+[21:24:43] [main/INFO]: [CHAT] <Johnystar_CZ> momento :)
+[21:24:49] [main/INFO]: [CHAT] <catforcuddle> de la bruh
+[21:26:18] [main/INFO]: [CHAT] KevinHere left the game
+[21:29:08] [main/INFO]: [CHAT] <catforcuddle> Plán:
+[21:29:14] [main/INFO]: [CHAT] <catforcuddle> Získat smeltery
+[21:29:17] [main/INFO]: [CHAT] <catforcuddle> a smokery
+[21:29:24] [main/INFO]: [CHAT] <catforcuddle> něco
+[21:29:26] [main/INFO]: [CHAT] <catforcuddle> a profit
+[21:29:27] [main/INFO]: [CHAT] <yoo1> když tak do DMs, dík
+[21:29:33] [main/INFO]: [CHAT] <catforcuddle> :sunglase
+[21:29:37] [main/INFO]: [CHAT] <catforcuddle> m
+[21:30:10] [main/INFO]: [CHAT] <yoo1> OMG RAJLÍ JÁ MÁM IRON VŽVŽVŽŽVVŽVŽŽŽŽŽVŽVVŽVŽVŽVŽV
+[21:30:18] [main/INFO]: [CHAT] <catforcuddle> já iron, gold, redstone
+[21:30:24] [main/INFO]: [CHAT] <Fixaxd> omg já potřebuju kolem 40k blackstonu owoowowoowowo
+[21:30:44] [main/INFO]: [CHAT] <catforcuddle> oušn revína
+[21:32:57] [main/INFO]: [CHAT] yoo1 whispers to you: psssst
+[21:33:01] [main/INFO]: [CHAT] yoo1 whispers to you: wuffff
+[21:33:08] [main/INFO]: [CHAT] You whisper to yoo1: coe
+[21:33:13] [main/INFO]: [CHAT] You whisper to yoo1: nyaa
+[21:33:13] [main/INFO]: [CHAT] yoo1 whispers to you: nya :>
+[21:34:36] [main/INFO]: [CHAT] You whisper to yoo1: OMGOMGOMGOMG
+[21:34:41] [main/INFO]: [CHAT] You whisper to yoo1: diiiaaaaaaaa
+[21:34:46] [main/INFO]: [CHAT] yoo1 whispers to you: najs
+[21:35:00] [main/INFO]: [CHAT] You whisper to yoo1: 7
+[21:35:08] [main/INFO]: [CHAT] yoo1 whispers to you: uuuuuu)
+[21:35:12] [main/INFO]: [CHAT] yoo1 whispers to you: cool
+[21:35:32] [main/INFO]: [CHAT] <Fixaxd> známe lore minecraftu
+[21:35:40] [main/INFO]: [CHAT] <yoo1> co
+[21:35:41] [main/INFO]: [CHAT] <Fixaxd> lec gou
+[21:35:41] [main/INFO]: [CHAT] <Fixaxd> :D
+[21:35:45] [main/INFO]: [CHAT] <Fixaxd> prostě
+[21:35:53] [main/INFO]: [CHAT] <Fixaxd> jak se objevili mineshafty
+[21:35:53] [main/INFO]: [CHAT] <Fixaxd> ?
+[21:36:01] [main/INFO]: [CHAT] <Fixaxd> objevily*
+[21:36:03] [main/INFO]: [CHAT] <Fixaxd> nwm
+[21:36:05] [main/INFO]: [CHAT] <Fixaxd> čestina
+[21:36:08] [main/INFO]: [CHAT] <Fixaxd> krindž knoč
+[21:36:13] [main/INFO]: [CHAT] <yoo1> idk, prostě kopeš ig
+[21:36:22] [main/INFO]: [CHAT] <Fixaxd> někdo je musel vybudovat
+[21:36:26] [main/INFO]: [CHAT] <Fixaxd> a kdo je vybudoval
+[21:36:28] [main/INFO]: [CHAT] <yoo1> já to byl
+[21:36:31] [main/INFO]: [CHAT] <Fixaxd> ty
+[21:36:32] [main/INFO]: [CHAT] <Fixaxd> ne
+[21:36:36] [main/INFO]: [CHAT] <yoo1> aleyo
+[21:36:37] [main/INFO]: [CHAT] <Fixaxd> nemáš právo mluvit
+[21:36:51] [main/INFO]: [CHAT] <yoo1> ok egril skin
+[21:37:07] [main/INFO]: [CHAT] <yoo1> paní Tefal
+[21:37:14] [main/INFO]: [CHAT] <catforcuddle> Pánec?
+[21:37:17] [main/INFO]: [CHAT] <catforcuddle> *v?
+[21:37:23] [main/INFO]: [CHAT] <Fixaxd> bruh
+[21:37:24] [main/INFO]: [CHAT] <Fixaxd> >:(
+[21:37:25] [main/INFO]: [CHAT] <yoo1> ne jakože
+[21:37:27] [main/INFO]: [CHAT] <yoo1> gril
+[21:37:31] [main/INFO]: [CHAT] <yoo1> dummy
+[21:37:32] [main/INFO]: [CHAT] <Fixaxd> jakože jo jsem na pánvičky
+[21:37:36] [main/INFO]: [CHAT] <Fixaxd> a egril možná taky
+[21:37:38] [main/INFO]: [CHAT] <Fixaxd> >:(
+[21:37:40] [main/INFO]: [CHAT] <Fixaxd> ale
+[21:37:41] [main/INFO]: [CHAT] <Fixaxd> bruh
+[21:37:43] [main/INFO]: [CHAT] <Fixaxd> tefal nejsem
+[21:37:46] [main/INFO]: [CHAT] <Fixaxd> tefal zní bad
+[21:37:55] [main/INFO]: [CHAT] <Fixaxd> když tak už pekáč
+[21:37:56] [main/INFO]: [CHAT] <catforcuddle> ty sesh gril na elektřinu? damn
+[21:38:00] [main/INFO]: [CHAT] <catforcuddle> jsem myslelq že na uhlí
+[21:38:09] [main/INFO]: [CHAT] <Fixaxd> elektřinu
+[21:38:09] [main/INFO]: [CHAT] <Fixaxd> no
+[21:38:17] [main/INFO]: [CHAT] <Fixaxd> kterou vyrobím za pomocí tvého kožichu
+[21:38:18] [main/INFO]: [CHAT] <Fixaxd> :)
+[21:38:24] [main/INFO]: [CHAT] <catforcuddle> jak
+[21:38:27] [main/INFO]: [CHAT] <Fixaxd> tím že tě spapám
+[21:38:29] [main/INFO]: [CHAT] <catforcuddle> fyzika otazník?
+[21:38:31] [main/INFO]: [CHAT] <catforcuddle> haha
+[21:38:35] [main/INFO]: [CHAT] <Fixaxd> fyzika whats that
+[21:38:36] [main/INFO]: [CHAT] <Fixaxd> ?
+[21:38:47] [main/INFO]: [CHAT] <catforcuddle> nevrmájnd
+[21:39:34] [main/INFO]: [CHAT] yoo1 whispers to you: lásko
+[21:40:17] [main/INFO]: [CHAT] yoo1 whispers to you: KURVA JÁ HOŘEL
+[21:40:23] [main/INFO]: [CHAT] yoo1 whispers to you: POMOCCCCCCCC
+[21:40:27] [main/INFO]: [CHAT] yoo1 whispers to you: ;w;
+[21:40:50] [main/INFO]: [CHAT] yoo1 whispers to you: dia
+[21:40:52] [main/INFO]: [CHAT] You whisper to yoo1: to je blbý no
+[21:40:56] [main/INFO]: [CHAT] You whisper to yoo1: najs
+[21:40:59] [main/INFO]: [CHAT] <Fixaxd> matesonův portal je actual sebevražda
+[21:41:08] [main/INFO]: [CHAT] <Fixaxd> můžeš kdykoliv spadnout do lava poolu
+[21:41:09] [main/INFO]: [CHAT] <Fixaxd> ;-;
+[21:41:12] [main/INFO]: [CHAT] <Johnystar_CZ> yoooo
+[21:41:12] [main/INFO]: [CHAT] <Johnystar_CZ> poge
+[21:41:14] [main/INFO]: [CHAT] <yoo1> tak ten chcu vyzkoušet tbh
+[21:41:39] [main/INFO]: [CHAT] <Fixaxd> ale doslova je asi 1 block od mého
+[21:41:41] [main/INFO]: [CHAT] <Fixaxd> :
+[21:42:54] [main/INFO]: [CHAT] You whisper to yoo1: už nemám krumpy, takže se vracím
+[21:43:10] [main/INFO]: [CHAT] yoo1 whispers to you: same
+[21:48:46] [main/INFO]: [CHAT] <catforcuddle> Máme jakoby dřevo a trochu dia no
+[21:49:08] [main/INFO]: [CHAT] You whisper to yoo1: nyaaaaa
+[21:49:08] [main/INFO]: [CHAT] <Fixaxd> gz
+[21:51:32] [main/INFO]: [CHAT] <catforcuddle> Muwusíme zničit kapitwwismuwus sowouwudwwuwuzi owo
+[21:51:40] [main/INFO]: [CHAT] <Fixaxd> owo
+[21:51:49] [main/INFO]: [CHAT] <Fixaxd> sowouwuchlasím
+[21:51:54] [main/INFO]: [CHAT] <Johnystar_CZ> sojuz nerušimij republik svabódných
+[21:52:04] [main/INFO]: [CHAT] <catforcuddle> da
+[21:52:08] [main/INFO]: [CHAT] <Fixaxd> hai
+[21:52:12] [main/INFO]: [CHAT] <catforcuddle> Paniemaju
+[21:52:40] [main/INFO]: [CHAT] <Fixaxd> eto nepaniemaju jak gavarit pa-ruski
+[21:52:53] [main/INFO]: [CHAT] <Fixaxd> :)
+[21:52:57] [main/INFO]: [CHAT] <catforcuddle> Volodimir Putin
+[21:53:16] [main/INFO]: [CHAT] <Fixaxd> is vinite ja zabil morsku svinu
+[21:53:37] [main/INFO]: [CHAT] <Fixaxd> actually se to přeloží omluvte mně já zapomněl morče :)
+[21:53:55] [main/INFO]: [CHAT] <catforcuddle> voeeeee
+[21:53:57] [main/INFO]: [CHAT] <catforcuddle> kory
+[21:54:00] [main/INFO]: [CHAT] <Fixaxd> lol
+[21:54:01] [main/INFO]: [CHAT] <catforcuddle> on mě tu mlátí ;w;
+[21:54:08] [main/INFO]: [CHAT] <Fixaxd> masem ?
+[21:54:13] [main/INFO]: [CHAT] <yoo1> ...
+[21:54:15] [main/INFO]: [CHAT] <catforcuddle> Rukou
+[21:54:18] [main/INFO]: [CHAT] <Fixaxd> to je maso
+[21:54:19] [main/INFO]: [CHAT] <Fixaxd> :)
+[21:54:21] [main/INFO]: [CHAT] <catforcuddle> :>
+[21:54:24] [main/INFO]: [CHAT] <yoo1> voe
+[21:54:26] [main/INFO]: [CHAT] <yoo1> seklerous
+[21:54:28] [main/INFO]: [CHAT] <yoo1> sekerou
+[21:54:38] [main/INFO]: [CHAT] <Fixaxd> to je cute couple ngl
+[21:54:39] [main/INFO]: [CHAT] <Fixaxd> :)
+[21:54:44] [main/INFO]: [CHAT] <catforcuddle> Když se u nás ~~chlapi~~ kočky poperou
+[21:54:51] [main/INFO]: [CHAT] <catforcuddle> Tak jenom nožem, a nebo sekerou
+[21:54:53] [main/INFO]: [CHAT] <yoo1> .///w///
+[21:54:55] [main/INFO]: [CHAT] <Fixaxd> tak jenom a nebo sekerou
+[21:54:57] [main/INFO]: [CHAT] <Fixaxd> lets gou
+[21:55:02] [main/INFO]: [CHAT] <Fixaxd> iwg sings
+[21:55:03] [main/INFO]: [CHAT] <Fixaxd> :D
+[21:55:09] [main/INFO]: [CHAT] <yoo1> tak jenom
+[21:55:12] [main/INFO]: [CHAT] <yoo1> nebo sekerou
+[21:55:16] [main/INFO]: [CHAT] <yoo1> kej then
+[21:55:20] [main/INFO]: [CHAT] <catforcuddle> V zimě dlouhý noci jsou a tuhej mrááááááááááááááááz
+[21:55:35] [main/INFO]: [CHAT] <Fixaxd> pam pam pám
+[21:55:40] [main/INFO]: [CHAT] <Fixaxd> xdd
+[21:55:40] [main/INFO]: [CHAT] <yoo1> sesh pan
+[21:55:42] [main/INFO]: [CHAT] <yoo1> no
+[21:55:44] [main/INFO]: [CHAT] <Fixaxd> jn
+[21:55:49] [main/INFO]: [CHAT] <catforcuddle> ty sesh pan
+[21:55:50] [main/INFO]: [CHAT] <catforcuddle> rekt
+[21:55:50] [main/INFO]: [CHAT] <yoo1> gotem chichu
+[21:55:51] [main/INFO]: [CHAT] <Fixaxd> prostě ta pánvička je cute
+[21:55:52] [main/INFO]: [CHAT] <Fixaxd> uwu
+[21:55:56] [main/INFO]: [CHAT] <yoo1> neeeeeee
+[21:55:58] [main/INFO]: [CHAT] <yoo1> ;w;
+[21:55:58] [main/INFO]: [CHAT] <catforcuddle> Právnička
+[21:56:03] [main/INFO]: [CHAT] <Fixaxd> jo ;-;
+[21:56:06] [main/INFO]: [CHAT] <catforcuddle> damn
+[21:56:23] [main/INFO]: [CHAT] You whisper to yoo1: mhm?
+[21:56:26] [main/INFO]: [CHAT] You whisper to yoo1: copak?
+[21:56:43] [main/INFO]: [CHAT] <Fixaxd> JÁ JSEM GAY JSEM GAY JSEM TEPLEEEEEEJ
+[21:56:46] [main/INFO]: [CHAT] You whisper to yoo1: tak já nevím; končíme?
+[21:56:50] [main/INFO]: [CHAT] <MatesoN_> damn
+[21:57:02] [main/INFO]: [CHAT] <Fixaxd> jednoho dne v neděli
+[21:57:04] [main/INFO]: [CHAT] You whisper to yoo1: já už jsem celkem unavenej afterall
+[21:57:06] [main/INFO]: [CHAT] <Fixaxd> když naši za babičkou odjeli
+[21:57:14] [main/INFO]: [CHAT] <Fixaxd> :D
+[21:57:32] [main/INFO]: [CHAT] <catforcuddle> Spadla mi ponožka z balkónu
+[21:57:37] [main/INFO]: [CHAT] <catforcuddle> :flošt:
+[21:57:42] [main/INFO]: [CHAT] <Fixaxd> lol
+[21:57:44] [main/INFO]: [CHAT] <yoo1> 🔥
+[21:57:49] [main/INFO]: [CHAT] <catforcuddle> oheň
+[21:57:55] [main/INFO]: [CHAT] <Fixaxd> meteor
+[21:57:56] [main/INFO]: [CHAT] <yoo1> jsem ji spálil
+[21:57:57] [main/INFO]: [CHAT] <Fixaxd> ne ohen
+[21:57:59] [main/INFO]: [CHAT] <Fixaxd> ::)
+[21:58:03] [main/INFO]: [CHAT] <yoo1> ☄
+[21:58:04] [main/INFO]: [CHAT] <Johnystar_CZ> ☄ tohle je meteor
+[21:58:07] [main/INFO]: [CHAT] <yoo1> jajtpž
+[21:58:10] [main/INFO]: [CHAT] <catforcuddle> ☹
+[21:58:14] [main/INFO]: [CHAT] <MatesoN_> damn mám zimní biom
+[21:58:22] [main/INFO]: [CHAT] <yoo1> ⚠
+[21:58:25] [main/INFO]: [CHAT] <yoo1> pozor
+[21:58:31] [main/INFO]: [CHAT] <catforcuddle> ⚥⚥⚥⚥⚥⚥
+[21:58:33] [main/INFO]: [CHAT] <yoo1> rajlí je extrémně horní
+[21:58:37] [main/INFO]: [CHAT] <Johnystar_CZ> true
+[21:58:38] [main/INFO]: [CHAT] <catforcuddle> voleeeeeeeeeee
+[21:58:39] [main/INFO]: [CHAT] <yoo1> ⚠⚠⚠
+[21:58:40] [main/INFO]: [CHAT] <catforcuddle> ne ty
+[21:58:41] [main/INFO]: [CHAT] <MatesoN_> ano
+[21:58:54] [main/INFO]: [CHAT] <catforcuddle> mám tu železnou sekeru, kory
+[21:59:01] [main/INFO]: [CHAT] <catforcuddle> dobře si to rozmýšlej
+[21:59:24] [main/INFO]: [CHAT] <Johnystar_CZ> já to už teda budu asi vypínat
+[21:59:29] [main/INFO]: [CHAT] <catforcuddle> okok
+[21:59:30] [main/INFO]: [CHAT] <yoo1> oke
+[21:59:37] [main/INFO]: [CHAT] <Johnystar_CZ> už je skoro 22 žjo
+[21:59:38] [main/INFO]: [CHAT] <Fixaxd> ok
+[21:59:43] [main/INFO]: [CHAT] <catforcuddle> ajo
+[21:59:45] [main/INFO]: [CHAT] <catforcuddle> damn
+[21:59:45] [main/INFO]: [CHAT] <Fixaxd> stejně zítra jedu k psychologovi :D
+[21:59:51] [main/INFO]: [CHAT] <Fixaxd> lol
+[21:59:54] [main/INFO]: [CHAT] <Fixaxd> well
+[21:59:55] [main/INFO]: [CHAT] <yoo1> tyjp
+[21:59:57] [main/INFO]: [CHAT] <catforcuddle> pročvšicizítraněcomáte;w;
+[21:59:57] [main/INFO]: [CHAT] <yoo1> užíve
+[22:00:05] [main/INFO]: [CHAT] <Fixaxd> protože
+[22:00:05] [main/INFO]: [CHAT] <catforcuddle> j
+[22:00:06] [main/INFO]: [CHAT] <yoo1> já jen večer ;w;
+[22:00:06] [main/INFO]: [CHAT] <Fixaxd> proto
+[22:00:11] [main/INFO]: [CHAT] <catforcuddle> gen
+[22:00:11] [main/INFO]: [CHAT] <Fixaxd> já nic večer
+[22:00:14] [main/INFO]: [CHAT] <Fixaxd> já jedu myslím ráno
+[22:00:17] [main/INFO]: [CHAT] <Fixaxd> nebo odpoledne
+[22:00:29] [main/INFO]: [CHAT] <Fixaxd> nejspíš budu řešit svojí sexualní orientaci ;-;
+[22:00:32] [main/INFO]: [CHAT] <yoo1> nya
+[22:00:36] [main/INFO]: [CHAT] <Johnystar_CZ> damn
+[22:00:37] [main/INFO]: [CHAT] <catforcuddle> nyaa
+[22:00:37] [main/INFO]: [CHAT] <Johnystar_CZ> taky cu
+[22:00:37] [main/INFO]: [CHAT] <yoo1> sesh na kočky
+[22:00:41] [main/INFO]: [CHAT] <Johnystar_CZ> m
+[22:00:44] [main/INFO]: [CHAT] <catforcuddle> zoofilie
+[22:00:46] [main/INFO]: [CHAT] <Fixaxd> což ti debilové napsali do zpravy z psychiny >:(
+[22:00:50] [main/INFO]: [CHAT] <catforcuddle> kory je pedofil
+[22:00:53] [main/INFO]: [CHAT] <yoo1> vole
+[22:00:56] [main/INFO]: [CHAT] <Fixaxd> jn
+[22:01:04] [main/INFO]: [CHAT] <Fixaxd> má rád loli
+[22:01:05] [main/INFO]: [CHAT] <catforcuddle> houska ti to potrvdí
+[22:01:10] [main/INFO]: [CHAT] <yoo1> NEMÁM
+[22:01:12] [main/INFO]: [CHAT] <yoo1> FUJ VOLE
+[22:01:14] [main/INFO]: [CHAT] <Fixaxd> má rád loli vlčátka
+[22:01:19] [main/INFO]: [CHAT] <yoo1> BOŽEEEEEEEE
+[22:01:22] [main/INFO]: [CHAT] <Johnystar_CZ> *cubs
+[22:01:25] [main/INFO]: [CHAT] You whisper to yoo1: cubs
+[22:01:29] [main/INFO]: [CHAT] <yoo1> @ELLY VYPÍNEJ TOOOOO ;W;
+[22:01:35] [main/INFO]: [CHAT] <Johnystar_CZ> :)
+[22:01:36] [main/INFO]: [CHAT] <catforcuddle> xddddd
+[22:01:41] [main/INFO]: [CHAT] <Fixaxd> nevypínej
+[22:01:50] [main/INFO]: [CHAT] <Johnystar_CZ> když dáš ale actually @Johnystar_CZ tak mě to pingne
+[22:01:55] [main/INFO]: [CHAT] <catforcuddle> jj
+[22:01:59] [main/INFO]: [CHAT] <yoo1> to že mám tak 5 cub postů ve svývh favorits nic neznamená žeo
+[22:01:59] [main/INFO]: [CHAT] <Fixaxd> @Johnystar_CZ
+[22:02:04] [main/INFO]: [CHAT] <Johnystar_CZ> @yoo1
+[22:02:06] [main/INFO]: [CHAT] <catforcuddle> neeeeee
+[22:02:07] [main/INFO]: [CHAT] <Johnystar_CZ> @Fixaxd
+[22:02:07] [main/INFO]: [CHAT] <catforcuddle> vůbec
+[22:02:10] [main/INFO]: [CHAT] <Fixaxd> AAA
+[22:02:11] [main/INFO]: [CHAT] <Fixaxd> PING
+[22:02:12] [main/INFO]: [CHAT] <yoo1> wait co
+[22:02:13] [main/INFO]: [CHAT] <Johnystar_CZ> jop
+[22:02:16] [main/INFO]: [CHAT] <catforcuddle> vůbec ne @yoo1
+[22:02:16] [main/INFO]: [CHAT] <yoo1> ono
+[22:02:19] [main/INFO]: [CHAT] <yoo1> cink
+[22:02:21] [main/INFO]: [CHAT] <Johnystar_CZ> jop
+[22:02:24] [main/INFO]: [CHAT] <Johnystar_CZ> @yoo1
+[22:02:24] [main/INFO]: [CHAT] <yoo1> @catforcuddle
+[22:02:25] [main/INFO]: [CHAT] <yoo1> @catforcuddle
+[22:02:25] [main/INFO]: [CHAT] <yoo1> @catforcuddle
+[22:02:26] [main/INFO]: [CHAT] <yoo1> @catforcuddle
+[22:02:26] [main/INFO]: [CHAT] <yoo1> @catforcuddle
+[22:02:26] [main/INFO]: [CHAT] <yoo1> @catforcuddle
+[22:02:27] [main/INFO]: [CHAT] <yoo1> @catforcuddle
+[22:02:27] [main/INFO]: [CHAT] <Johnystar_CZ> lol
+[22:02:27] [main/INFO]: [CHAT] <yoo1> @catforcuddle
+[22:02:27] [main/INFO]: [CHAT] <yoo1> @catforcuddle
+[22:02:33] [main/INFO]: [CHAT] <catforcuddle> vleeeeeee
+[22:02:35] [main/INFO]: [CHAT] <yoo1> @a
+[22:02:39] [main/INFO]: [CHAT] <Fixaxd> @all
+[22:02:40] [main/INFO]: [CHAT] <catforcuddle> nic
+[22:02:40] [main/INFO]: [CHAT] <yoo1> @everyone
+[22:02:40] [main/INFO]: [CHAT] <Fixaxd> @all
+[22:02:41] [main/INFO]: [CHAT] <Fixaxd> @all
+[22:02:41] [main/INFO]: [CHAT] <Fixaxd> @all
+[22:02:41] [main/INFO]: [CHAT] <Fixaxd> @all
+[22:02:42] [main/INFO]: [CHAT] <catforcuddle> nic
+[22:02:44] [main/INFO]: [CHAT] <Johnystar_CZ> you wish
+[22:02:46] [main/INFO]: [CHAT] <Fixaxd> @yoo1
+[22:02:46] [main/INFO]: [CHAT] <Fixaxd> @yoo1
+[22:02:47] [main/INFO]: [CHAT] <Fixaxd> @yoo1
+[22:02:48] [main/INFO]: [CHAT] <Fixaxd> @yoo1
+[22:02:49] [main/INFO]: [CHAT] <Fixaxd> @yoo1
+[22:02:49] [main/INFO]: [CHAT] <Fixaxd> @yoo1
+[22:02:49] [main/INFO]: [CHAT] <Fixaxd> @yoo1
+[22:02:50] [main/INFO]: [CHAT] <Fixaxd> @yoo1
+[22:02:50] [main/INFO]: [CHAT] <Fixaxd> @yoo1
+[22:02:50] [main/INFO]: [CHAT] <Fixaxd> @yoo1
+[22:02:52] [main/INFO]: [CHAT] <Johnystar_CZ> b
+[22:02:53] [main/INFO]: [CHAT] <catforcuddle> STAAAAAAAAAAAAAAAP
+[22:02:55] [main/INFO]: [CHAT] <yoo1> dostaneš ban
+[22:02:59] [main/INFO]: [CHAT] <MatesoN_> stop
+[22:02:59] [main/INFO]: [CHAT] <Fixaxd> je to lan
+[22:03:01] [main/INFO]: [CHAT] <catforcuddle> flákanec
+[22:03:02] [main/INFO]: [CHAT] <Fixaxd> -_-
+[22:03:07] [main/INFO]: [CHAT] <MatesoN_> nevidim přes chat na cestu
+[22:03:07] [main/INFO]: [CHAT] <yoo1> same
+[22:03:14] [main/INFO]: [CHAT] <Fixaxd> tak si ho zmenši
+[22:03:14] [main/INFO]: [CHAT] <yoo1> @mateson_
+[22:03:15] [main/INFO]: [CHAT] <Johnystar_CZ> @Fixaxd můžu doinstalovat mod na bany, neboj
+[22:03:15] [main/INFO]: [CHAT] <yoo1> @mateson_
+[22:03:15] [main/INFO]: [CHAT] <Fixaxd> lol
+[22:03:15] [main/INFO]: [CHAT] <yoo1> @mateson_
+[22:03:15] [main/INFO]: [CHAT] <yoo1> @mateson_
+[22:03:16] [main/INFO]: [CHAT] <yoo1> @mateson_
+[22:03:16] [main/INFO]: [CHAT] <yoo1> @mateson_
+[22:03:16] [main/INFO]: [CHAT] <yoo1> @mateson_
+[22:03:16] [main/INFO]: [CHAT] <yoo1> @mateson_
+[22:03:17] [main/INFO]: [CHAT] <yoo1> @mateson_
+[22:03:17] [main/INFO]: [CHAT] <yoo1> @mateson_
+[22:03:19] [main/INFO]: [CHAT] <MatesoN_> voe
+[22:03:28] [main/INFO]: [CHAT] <yoo1> uwu
+[22:03:43] [main/INFO]: [CHAT] <catforcuddle> Může tě @Johnystar_CZ vypnout na ZeroTier
+[22:03:51] [main/INFO]: [CHAT] <yoo1> uwuw
+[22:03:52] [main/INFO]: [CHAT] <Johnystar_CZ> to taky vlastně no
+[22:04:37] [main/INFO]: [CHAT] Fixaxd left the game
+[22:04:46] [main/INFO]: [CHAT] <yoo1> k tak jdem
+[22:04:49] [main/INFO]: [CHAT] <yoo1> páčkooooooo
+[22:04:56] [main/INFO]: [CHAT] <Johnystar_CZ> pá pá
+[22:05:00] [main/INFO]: [CHAT] yoo1 left the game
+[22:05:10] [main/INFO]: [CHAT] <Johnystar_CZ> ok
+[22:05:11] [main/INFO]: Stopping worker threads
+[22:05:11] [main/INFO]: Unlinking from VoIP client...
+[22:05:11] [main/INFO]: Unlinked
+[22:05:12] [main/INFO]: Stopping!

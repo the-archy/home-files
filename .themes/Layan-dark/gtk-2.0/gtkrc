@@ -1,0 +1,26 @@
+# Based on Layan GTK theme
+
+# Declare the colours used throughout the theme.
+# There shouldn't be any fiddling with them in the theme files themselves in
+# order to not mess up the dark theme.
+
+# Text/base
+gtk-color-scheme = "text_color:#FFFFFF\nbase_color:#3B3B3B"
+# Foreground/background
+gtk-color-scheme = "fg_color:#FFFFFF\nbg_color:#3B3B3B"
+# Selected foreground/background
+gtk-color-scheme = "selected_fg_color:#FFFFFF\nselected_bg_color:#1088DF"
+# Titlebar foreground/background
+gtk-color-scheme = "titlebar_fg_color:#EFEFEF\ntitlebar_bg_color:#3B3B3B"
+# Links
+gtk-color-scheme = "link_color:#42A5F5\nvisited_link_color:#42DEF5"
+
+# Set GTK settings
+gtk-auto-mnemonics              = 1
+gtk-primary-button-warps-slider = 1
+
+# And hand over the control to the theme files
+include "main.rc"
+include "apps.rc"
+include "hacks.rc"
+include "panel.rc"

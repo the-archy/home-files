@@ -1,0 +1,7 @@
+{
+  "panorama": "panorama_pack_one:level_0",
+  "forcePanorama": true,
+  "randomPerScreen": false,
+  "lockScreenshotPitch": true,
+  "lockScreenshotYaw": false
+}

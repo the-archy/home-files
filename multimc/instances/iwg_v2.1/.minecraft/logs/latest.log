@@ -1,0 +1,501 @@
+[20:53:44] [main/INFO]: Loading for game Minecraft 1.16.5
+[20:53:44] [ForkJoinPool-1-worker-15/WARN]: Non-Fabric mod JAR at "/home/archy/.local/share/multimc/instances/iwg_v2.1/.minecraft/mods/randompatches-2.4.5-fabric-javadoc.jar", ignoring
+[20:53:44] [ForkJoinPool-1-worker-15/WARN]: Non-Fabric mod JAR at "/home/archy/.local/share/multimc/instances/iwg_v2.1/.minecraft/mods/findme-1.16.3-2.2.0.0.jar", ignoring
+[20:53:44] [main/WARN]: Warnings were found! 
+ - Mod 'ClickThrough' (clickthrough) recommends version 1.1.7 or later of mod modupdater, which is missing!
+	 - You must install version 1.1.7 or later of modupdater.
+ - Mod 'Clear Despawn' (cleardespawn) recommends version 1.1.7 or later of mod modupdater, which is missing!
+	 - You must install version 1.1.7 or later of modupdater.
+[20:53:44] [main/INFO]: [FabricLoader] Loading 125 mods:
+	- amecsapi@1.1.4+mc1.16.5
+	- appleskin@mc1.16.4-2.0.0
+	- architectury@1.17.22
+	- autoconfig1u@3.3.1
+	- cleardespawn@1.16.5-fabric0.30.0-1.1.1
+	- clickthrough@1.16.5-fabric0.30.0-0.4
+	- cloth-basic-math@0.5.1
+	- cloth-client-events-v0@1.5.47
+	- cloth-config2@4.11.26
+	- coat@1.0.0-beta.9
+	- com_moandjiezana_toml_toml4j@0.7.2
+	- commonformatting@1.0.1
+	- crowdin-translate@1.2
+	- dark-loading-screen@1.6.3
+	- dashloader@1.4.5
+	- dynamicentry@0.1.3
+	- dynamicfps@2.0.2
+	- editsign@2.2.0
+	- extrasounds@1.4.0
+	- fabric@0.36.0+1.16
+	- fabric-api-base@0.3.0+c88702897d
+	- fabric-api-lookup-api-v1@1.2.0+6aebe11a7d
+	- fabric-biome-api-v1@3.1.10+3661eaa17d
+	- fabric-blockrenderlayer-v1@1.1.5+ca58154a7d
+	- fabric-command-api-v1@1.1.1+351679a77d
+	- fabric-commands-v0@0.2.2+ca58154a7d
+	- fabric-containers-v0@0.1.11+9354966b7d
+	- fabric-content-registries-v0@0.2.1+ca58154a7d
+	- fabric-crash-report-info-v1@0.1.3+ca58154a7d
+	- fabric-dimensions-v1@2.0.6+61336ba97d
+	- fabric-entity-events-v1@1.1.0+c88702897d
+	- fabric-events-interaction-v0@0.4.3+f941baf07d
+	- fabric-events-lifecycle-v0@0.2.1+ca58154a7d
+	- fabric-game-rule-api-v1@1.0.6+ca58154a7d
+	- fabric-item-api-v1@1.2.1+ca58154a7d
+	- fabric-item-groups-v0@0.2.7+2868a2287d
+	- fabric-key-binding-api-v1@1.0.4+9354966b7d
+	- fabric-keybindings-v0@0.2.1+ca58154a7d
+	- fabric-language-kotlin@1.6.1+kotlin.1.5.10
+	- fabric-lifecycle-events-v1@1.2.1+ca58154a7d
+	- fabric-loot-tables-v1@1.0.2+ca58154a7d
+	- fabric-mining-levels-v0@0.1.3+ca58154a7d
+	- fabric-models-v0@0.3.0+bc7a746f7d
+	- fabric-mumblelink-mod@0.7.5
+	- fabric-networking-api-v1@1.0.3+e3c9d0627d
+	- fabric-networking-blockentity-v0@0.2.8+ca58154a7d
+	- fabric-networking-v0@0.3.2+ca58154a7d
+	- fabric-object-builder-api-v1@1.9.5+c88702897d
+	- fabric-object-builders-v0@0.7.2+ca58154a7d
+	- fabric-particles-v1@0.2.4+ca58154a7d
+	- fabric-registry-sync-v0@0.7.4+ca58154a7d
+	- fabric-renderer-api-v1@0.4.3+0ef801b67d
+	- fabric-renderer-indigo@0.4.4+ca58154a7d
+	- fabric-renderer-registries-v1@2.3.0+2868a2287d
+	- fabric-rendering-data-attachment-v1@0.1.5+ca58154a7d
+	- fabric-rendering-fluids-v1@0.1.13+ca58154a7d
+	- fabric-rendering-v0@1.1.2+ca58154a7d
+	- fabric-rendering-v1@1.6.0+2868a2287d
+	- fabric-resource-loader-v0@0.4.6+2868a2287d
+	- fabric-screen-api-v1@1.0.0+c045166c7d
+	- fabric-screen-handler-api-v1@1.1.5+9354966b7d
+	- fabric-structure-api-v1@1.1.11+ca0ef93d7d
+	- fabric-tag-extensions-v0@1.1.1+ca58154a7d
+	- fabric-textures-v0@1.0.6+ca58154a7d
+	- fabric-tool-attribute-api-v1@1.2.7+8183d3957d
+	- fabricasmtools@0.3.2
+	- fabricloader@0.11.6
+	- fiber@0.23.0-2
+	- gbfabrictools@1.3.2+1.16.4
+	- grossfabrichacks@1.1.0
+	- inventorio@1.4.3
+	- io_activej_activej-codegen@4.2
+	- io_activej_activej-serializer@4.2
+	- java@8
+	- lightoverlay@5.8.1
+	- limitless@1.1.4
+	- lithium@0.6.6
+	- minecraft@1.16.5
+	- modmenu@1.16.9
+	- mousewheelie@1.7.3-newconfig+mc1.16.5
+	- net_bytebuddy_byte-buddy-agent@1.10.20
+	- net_gudenau_lib_unsafe@1.4.1
+	- no-potion-offset@${version}
+	- okzoomer@4.0.1+1.16.2
+	- org_jetbrains_annotations@17.0.0
+	- org_jetbrains_kotlin_kotlin-reflect@1.5.10
+	- org_jetbrains_kotlin_kotlin-stdlib@1.5.10
+	- org_jetbrains_kotlin_kotlin-stdlib-jdk7@1.5.10
+	- org_jetbrains_kotlin_kotlin-stdlib-jdk8@1.5.10
+	- org_jetbrains_kotlinx_kotlinx-coroutines-core@1.3.7
+	- org_jetbrains_kotlinx_kotlinx-coroutines-core-jvm@1.5.0
+	- org_jetbrains_kotlinx_kotlinx-coroutines-jdk8@1.5.0
+	- org_jetbrains_kotlinx_kotlinx-serialization-core-jvm@1.2.1
+	- org_jetbrains_kotlinx_kotlinx-serialization-json-jvm@1.2.1
+	- org_slf4j_slf4j-api@1.7.29
+	- pandamc_concreteplus@1.8
+	- phormat@1.0.0
+	- phosphor@0.7.2+build.12
+	- reeses-sodium-options@1.0.4
+	- rftl@1.0.0
+	- roughlyenoughitems@5.12.248
+	- roughlyenoughitems-api@5.12.248
+	- roughlyenoughitems-default-plugin@5.12.248
+	- roughlyenoughitems-runtime@5.12.248
+	- roughlyenoughresources@2.1.5
+	- sakurarosea@1.6.0-MC1.16.3-fabric
+	- smoothboot@1.16.5-1.6.0
+	- sodium@0.2.0+build.4
+	- sodium-extra@0.3.2
+	- stacc@1.0-SNAPSHOT
+	- stendhal@1.1.0
+	- stoneholm@1.2.3
+	- torohealth@1.16.4-fabric-4
+	- tweed4_annotated@1.0.0
+	- tweed4_base@1.0.0
+	- tweed4_data@1.0.0
+	- tweed4_data_hjson@1.0.0
+	- tweed4_tailor_coat@1.0.0
+	- tweed4_tailor_screen@1.0.0
+	- user11681_reflect@1.3.0
+	- user11681_shortcode@0.4.0
+	- vistas@1.3.2
+	- waila@1.9.22
+	- waterdripsound@0.2.1-1.16
+	- whereisit@1.11.7
+[20:53:44] [main/WARN]: Mod `no-potion-offset` (${version}) does not respect SemVer - comparison support is limited.
+[20:53:44] [main/WARN]: Mod `appleskin` (mc1.16.4-2.0.0) does not respect SemVer - comparison support is limited.
+[20:53:44] [main/INFO]: no good? no, this man is definitely up to evil.
+[20:53:45] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.2 Source=file:/home/archy/.local/share/multimc/libraries/net/fabricmc/sponge-mixin/0.9.4+mixin.0.8.2/sponge-mixin-0.9.4+mixin.0.8.2.jar Service=Knot/Fabric Env=CLIENT
+[20:53:45] [main/INFO]: Loaded configuration file for Sodium: 24 options available, 1 override(s) found
+[20:53:45] [main/INFO]: Loaded configuration file for Lithium: 80 options available, 0 override(s) found
+[20:53:45] [main/WARN]: Reference map 'coat-refmap.json' for coat.mixins.json could not be read. If this is a development environment you can ignore this message
+[20:53:45] [main/WARN]: Force-disabling mixin 'features.model.MixinMultipartBakedModel' as rule 'mixin.features.model' (added by mods [dashloader]) disables it and children
+[20:53:45] [main/WARN]: @Mixin target net/minecraft/class_327$class_5232 is public in phormat.mixins.json:TextRendererDrawerMixin and should be specified in value
+[20:53:46] [main/WARN]: @Mixin target net/minecraft/class_1097$class_1099 is public in fabric-renderer-api-v1.mixins.json:client.WeightedBakedModelEntryAccessor and should be specified in value
+[20:53:46] [main/WARN]: @Mixin target net/minecraft/class_3898$class_3208 is public in fabric-networking-api-v1.mixins.json:accessor.EntityTrackerAccessor and should be specified in value
+[20:53:46] [main/WARN]: @Mixin target net/minecraft/class_702$class_4090 is public in fabric-particles-v1.mixins.json:ParticleManagerAccessor$SimpleSpriteProviderAccessor and should be specified in value
+[20:53:46] [main/WARN]: Error loading class: net/guavy/gravestones/block/GravestoneBlock (java.lang.ClassNotFoundException: net/guavy/gravestones/block/GravestoneBlock)
+[20:53:46] [main/WARN]: @Mixin target net.guavy.gravestones.block.GravestoneBlock was not found inventorio.mixins.json:integration.gravestones.GravestoneBlockMixin
+[20:53:46] [main/WARN]: Error loading class: mezz/jei/plugins/vanilla/VanillaPlugin (java.lang.ClassNotFoundException: mezz/jei/plugins/vanilla/VanillaPlugin)
+[20:53:46] [main/WARN]: @Mixin target mezz.jei.plugins.vanilla.VanillaPlugin was not found inventorio.mixins.json:integration.jei.JEIVanillaPluginMixin
+[20:53:46] [main/INFO]: Smooth Boot config initialized
+[20:53:50] [main/INFO]: Creating DashLoader Instance
+[20:53:50] [main/INFO]: Created DashLoader with classloader: UnsafeKnotClassLoader
+[20:53:50] [main/INFO]: Starting DashLoader thread.
+[20:53:50] [dashloader-supervisor/INFO]: [92ms] Initialized api.
+[20:53:50] [dashloader-supervisor/INFO]: [3/4]  Started Serializer init.
+[20:53:50] [dashloader-thread-2/INFO]: [STDERR]: SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+[20:53:50] [dashloader-thread-2/INFO]: [STDERR]: SLF4J: Defaulting to no-operation (NOP) logger implementation
+[20:53:50] [dashloader-thread-2/INFO]: [STDERR]: SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+[20:53:50] [dashloader-supervisor/INFO]: [3/4] [384ms] Created Serializers.
+[20:53:50] [dashloader-supervisor/INFO]: [4/4] Launching DashCache.
+[20:53:50] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[20:53:50] [dashloader-supervisor/INFO]: Starting DashLoader Deserialization
+[20:53:50] [dashloader-supervisor/INFO]:       Loading Registry
+[20:53:50] [dashloader-supervisor/INFO]: [1/7] Loading Simple Objects
+[20:53:52] [dashloader-supervisor/INFO]: [2/7] Loading Properties
+[20:53:52] [dashloader-supervisor/INFO]: [3/7] Loading Advanced Objects
+[20:53:52] [dashloader-supervisor/INFO]: [4/7] Loading 7143 Models: [0]
+[20:53:52] [dashloader-supervisor/INFO]: [5/7] Loading 3533 Models: [1]
+[20:53:52] [dashloader-supervisor/INFO]: [6/7] Loading 15354 Models: [2]
+[20:53:52] [dashloader-supervisor/INFO]: [7/7] Applying Model Overrides
+[20:53:52] [dashloader-supervisor/INFO]:       Loading Mappings
+[20:53:52] [dashloader-supervisor/INFO]:     Loaded DashLoader
+[20:53:52] [dashloader-supervisor/INFO]: Loaded cache in 2.2s
+[20:53:52] [main/INFO]: Setting user: catforcuddle
+[20:53:52] [main/INFO]: [STDOUT]: [Stacc] initialized!
+[20:53:52] [main/INFO]: [RER] RoughlyEnoughPacketSize?  Possibly.
+[20:53:52] [main/INFO]: Discovered plugin waila:core provided by waila at mcp.mobius.waila.addons.core.PluginCore
+[20:53:52] [main/INFO]: Discovered plugin waila:vanilla provided by waila at mcp.mobius.waila.addons.minecraft.PluginMinecraft
+[20:53:52] [main/INFO]: Registering plugin at mcp.mobius.waila.addons.core.PluginCore
+[20:53:52] [main/INFO]: Registering plugin at mcp.mobius.waila.addons.minecraft.PluginMinecraft
+[20:53:52] [main/INFO]: REI Found
+[20:53:52] [main/INFO]: [Stendhal] Initializing
+[20:53:54] [main/ERROR]: Error enabling the Mod Menu config button for Hwyla
+java.lang.ClassNotFoundException: io.github.prospector.modmenu.ModMenu
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:382) ~[?:1.8.0_291]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:418) ~[?:1.8.0_291]
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:355) ~[?:1.8.0_291]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:351) ~[?:1.8.0_291]
+	at net.fabricmc.loader.launch.knot.UnsafeKnotClassLoader.loadClass(UnsafeKnotClassLoader.java:50) ~[6306ca05-dcb3-4f3a-82d8-7173de8fc7a8.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:351) ~[?:1.8.0_291]
+	at java.lang.Class.forName0(Native Method) ~[?:1.8.0_291]
+	at java.lang.Class.forName(Class.java:264) ~[?:1.8.0_291]
+	at mcp.mobius.waila.WailaClient.enableModMenuConfig(WailaClient.java:37) ~[Hwyla-fabric-1.16.2-1.9.23-79.jar:?]
+	at mcp.mobius.waila.WailaClient.onInitializeClient(WailaClient.java:32) ~[Hwyla-fabric-1.16.2-1.9.23-79.jar:?]
+	at net.fabricmc.loader.entrypoint.minecraft.hooks.EntrypointUtils.invoke0(EntrypointUtils.java:47) [fabric-loader-0.11.6.jar:?]
+	at net.fabricmc.loader.entrypoint.minecraft.hooks.EntrypointUtils.invoke(EntrypointUtils.java:33) [fabric-loader-0.11.6.jar:?]
+	at net.fabricmc.loader.entrypoint.minecraft.hooks.EntrypointClient.start(EntrypointClient.java:34) [fabric-loader-0.11.6.jar:?]
+	at net.minecraft.class_310.<init>(class_310.java:437) [intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.client.main.Main.main(Main.java:177) [intermediary-minecraft-1.16.5-client.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_291]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_291]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_291]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_291]
+	at net.fabricmc.loader.game.MinecraftGameProvider.launch(MinecraftGameProvider.java:234) [fabric-loader-0.11.6.jar:?]
+	at net.fabricmc.loader.launch.knot.Knot.launch(Knot.java:153) [fabric-loader-0.11.6.jar:?]
+	at net.fabricmc.loader.launch.knot.KnotClient.main(KnotClient.java:28) [fabric-loader-0.11.6.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_291]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_291]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_291]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_291]
+	at org.multimc.onesix.OneSixLauncher.launchWithMainClass(OneSixLauncher.java:196) [NewLaunch.jar:?]
+	at org.multimc.onesix.OneSixLauncher.launch(OneSixLauncher.java:231) [NewLaunch.jar:?]
+	at org.multimc.EntryPoint.listen(EntryPoint.java:143) [NewLaunch.jar:?]
+	at org.multimc.EntryPoint.main(EntryPoint.java:34) [NewLaunch.jar:?]
+[20:53:54] [main/INFO]: Reloaded configs for mousewheelie (universal/highest)
+[20:53:54] [main/WARN]: WARNING! Mod roughlyenoughitems-api is only using deprecated 'modmenu:parent' custom value! This will be removed in 1.18 snapshots, so ask the author of this mod to support the new API.
+[20:53:54] [main/WARN]: WARNING! Mod crowdin-translate is only using deprecated 'modmenu:api' custom value! This will be removed in 1.18 snapshots, so ask the author of this mod to support the new API.
+[20:53:54] [main/WARN]: WARNING! Mod torohealth is only using deprecated 'modmenu:clientsideOnly' custom value! This is no longer needed and will be removed in 1.18 snapshots.
+[20:53:54] [main/WARN]: WARNING! Mod fiber is only using deprecated 'modmenu:api' custom value! This will be removed in 1.18 snapshots, so ask the author of this mod to support the new API.
+[20:53:54] [main/WARN]: WARNING! Mod phormat is only using deprecated 'modmenu:api' custom value! This will be removed in 1.18 snapshots, so ask the author of this mod to support the new API.
+[20:53:54] [main/WARN]: WARNING! Mod fabricasmtools is only using deprecated 'modmenu:api' custom value! This will be removed in 1.18 snapshots, so ask the author of this mod to support the new API.
+[20:53:54] [main/WARN]: WARNING! Mod roughlyenoughitems-runtime is only using deprecated 'modmenu:parent' custom value! This will be removed in 1.18 snapshots, so ask the author of this mod to support the new API.
+[20:53:54] [main/WARN]: WARNING! Mod cloth-client-events-v0 is only using deprecated 'modmenu:parent' custom value! This will be removed in 1.18 snapshots, so ask the author of this mod to support the new API.
+[20:53:54] [main/WARN]: WARNING! Mod cloth-client-events-v0 is only using deprecated 'modmenu:clientsideOnly' custom value! This is no longer needed and will be removed in 1.18 snapshots.
+[20:53:54] [main/WARN]: WARNING! Mod cloth-client-events-v0 is only using deprecated 'modmenu:api' custom value! This will be removed in 1.18 snapshots, so ask the author of this mod to support the new API.
+[20:53:54] [main/WARN]: WARNING! Mod mousewheelie is only using deprecated 'modmenu:clientsideOnly' custom value! This is no longer needed and will be removed in 1.18 snapshots.
+[20:53:54] [main/WARN]: WARNING! Mod architectury is only using deprecated 'modmenu:api' custom value! This will be removed in 1.18 snapshots, so ask the author of this mod to support the new API.
+[20:53:54] [main/WARN]: WARNING! Mod lightoverlay is only using deprecated 'modmenu:clientsideOnly' custom value! This is no longer needed and will be removed in 1.18 snapshots.
+[20:53:54] [main/WARN]: WARNING! Mod gbfabrictools is only using deprecated 'modmenu:api' custom value! This will be removed in 1.18 snapshots, so ask the author of this mod to support the new API.
+[20:53:54] [main/WARN]: WARNING! Mod grossfabrichacks is only using deprecated 'modmenu:api' custom value! This will be removed in 1.18 snapshots, so ask the author of this mod to support the new API.
+[20:53:54] [main/WARN]: WARNING! Mod roughlyenoughitems-default-plugin is only using deprecated 'modmenu:parent' custom value! This will be removed in 1.18 snapshots, so ask the author of this mod to support the new API.
+[20:53:54] [main/WARN]: WARNING! Mod cloth-basic-math is only using deprecated 'modmenu:api' custom value! This will be removed in 1.18 snapshots, so ask the author of this mod to support the new API.
+[20:53:54] [main/WARN]: WARNING! Mod autoconfig1u is only using deprecated 'modmenu:api' custom value! This will be removed in 1.18 snapshots, so ask the author of this mod to support the new API.
+[20:53:54] [main/WARN]: WARNING! Mod fabric-mumblelink-mod is only using deprecated 'modmenu:clientsideOnly' custom value! This is no longer needed and will be removed in 1.18 snapshots.
+[20:53:54] [main/INFO]: Config loaded.
+[20:53:54] [main/INFO]: [Indigo] Different rendering plugin detected; not applying Indigo.
+[20:53:54] [main/WARN]: Skipping bad option: key_inventorio.keys.use_utility:key.keyboard.left.alt
+[20:53:54] [main/WARN]: Skipping bad option: key_inventorio.keys.rocket_boost:key.keyboard.unknown
+[20:53:54] [main/INFO]: Backend library: LWJGL version 3.2.2 build 10
+[20:53:56] [main/WARN]: ERROR : Couldn't load Narrator library : Unable to load library 'fliteWrapper': Native library (linux-x86-64/libfliteWrapper.so) not found in resource path (/usr/share/multimc/jars/NewLaunch.jar:/home/archy/.local/share/multimc/libraries/org/lwjgl/lwjgl-glfw/3.2.2/lwjgl-glfw-3.2.2.jar:/home/archy/.local/share/multimc/libraries/org/lwjgl/lwjgl-jemalloc/3.2.2/lwjgl-jemalloc-3.2.2.jar:/home/archy/.local/share/multimc/libraries/org/lwjgl/lwjgl-openal/3.2.2/lwjgl-openal-3.2.2.jar:/home/archy/.local/share/multimc/libraries/org/lwjgl/lwjgl-opengl/3.2.2/lwjgl-opengl-3.2.2.jar:/home/archy/.local/share/multimc/libraries/org/lwjgl/lwjgl-stb/3.2.2/lwjgl-stb-3.2.2.jar:/home/archy/.local/share/multimc/libraries/org/lwjgl/lwjgl-tinyfd/3.2.2/lwjgl-tinyfd-3.2.2.jar:/home/archy/.local/share/multimc/libraries/org/lwjgl/lwjgl/3.2.2/lwjgl-3.2.2.jar:/home/archy/.local/share/multimc/libraries/com/mojang/patchy/1.1/patchy-1.1.jar:/home/archy/.local/share/multimc/libraries/oshi-project/oshi-core/1.1/oshi-core-1.1.jar:/home/archy/.local/share/multimc/libraries/net/java/dev/jna/jna/4.4.0/jna-4.4.0.jar:/home/archy/.local/share/multimc/libraries/net/java/dev/jna/platform/3.4.0/platform-3.4.0.jar:/home/archy/.local/share/multimc/libraries/com/ibm/icu/icu4j/66.1/icu4j-66.1.jar:/home/archy/.local/share/multimc/libraries/com/mojang/javabridge/1.0.22/javabridge-1.0.22.jar:/home/archy/.local/share/multimc/libraries/net/sf/jopt-simple/jopt-simple/5.0.3/jopt-simple-5.0.3.jar:/home/archy/.local/share/multimc/libraries/io/netty/netty-all/4.1.25.Final/netty-all-4.1.25.Final.jar:/home/archy/.local/share/multimc/libraries/com/google/guava/guava/21.0/guava-21.0.jar:/home/archy/.local/share/multimc/libraries/org/apache/commons/commons-lang3/3.5/commons-lang3-3.5.jar:/home/archy/.local/share/multimc/libraries/commons-io/commons-io/2.5/commons-io-2.5.jar:/home/archy/.local/share/multimc/libraries/commons-codec/commons-codec/1.10/commons-codec-1.10.jar:/home/archy/.local/share/multimc/libraries/com/mojang/brigadier/1.0.17/brigadier-1.0.17.jar:/home/archy/.local/share/multimc/libraries/com/mojang/datafixerupper/4.0.26/datafixerupper-4.0.26.jar:/home/archy/.local/share/multimc/libraries/com/google/code/gson/gson/2.8.0/gson-2.8.0.jar:/home/archy/.local/share/multimc/libraries/com/mojang/authlib/2.1.28/authlib-2.1.28.jar:/home/archy/.local/share/multimc/libraries/org/apache/commons/commons-compress/1.8.1/commons-compress-1.8.1.jar:/home/archy/.local/share/multimc/libraries/org/apache/httpcomponents/httpclient/4.3.3/httpclient-4.3.3.jar:/home/archy/.local/share/multimc/libraries/commons-logging/commons-logging/1.1.3/commons-logging-1.1.3.jar:/home/archy/.local/share/multimc/libraries/org/apache/httpcomponents/httpcore/4.3.2/httpcore-4.3.2.jar:/home/archy/.local/share/multimc/libraries/it/unimi/dsi/fastutil/8.2.1/fastutil-8.2.1.jar:/home/archy/.local/share/multimc/libraries/org/apache/logging/log4j/log4j-api/2.8.1/log4j-api-2.8.1.jar:/home/archy/.local/share/multimc/libraries/org/apache/logging/log4j/log4j-core/2.8.1/log4j-core-2.8.1.jar:/home/archy/.local/share/multimc/libraries/com/mojang/text2speech/1.11.3/text2speech-1.11.3.jar:/home/archy/.local/share/multimc/libraries/net/fabricmc/intermediary/1.16.5/intermediary-1.16.5.jar:/home/archy/.local/share/multimc/libraries/net/fabricmc/tiny-mappings-parser/0.2.2.14/tiny-mappings-parser-0.2.2.14.jar:/home/archy/.local/share/multimc/libraries/net/fabricmc/sponge-mixin/0.9.4+mixin.0.8.2/sponge-mixin-0.9.4+mixin.0.8.2.jar:/home/archy/.local/share/multimc/libraries/net/fabricmc/tiny-remapper/0.4.2/tiny-remapper-0.4.2.jar:/home/archy/.local/share/multimc/libraries/net/fabricmc/access-widener/1.0.0/access-widener-1.0.0.jar:/home/archy/.local/share/multimc/libraries/net/fabricmc/fabric-loader-sat4j/2.3.5.4/fabric-loader-sat4j-2.3.5.4.jar:/home/archy/.local/share/multimc/libraries/com/google/jimfs/jimfs/1.2-fabric/jimfs-1.2-fabric.jar:/home/archy/.local/share/multimc/libraries/org/ow2/asm/asm/9.1/asm-9.1.jar:/home/archy/.local/share/multimc/libraries/org/ow2/asm/asm-analysis/9.1/asm-analysis-9.1.jar:/home/archy/.local/share/multimc/libraries/org/ow2/asm/asm-commons/9.1/asm-commons-9.1.jar:/home/archy/.local/share/multimc/libraries/org/ow2/asm/asm-tree/9.1/asm-tree-9.1.jar:/home/archy/.local/share/multimc/libraries/org/ow2/asm/asm-util/9.1/asm-util-9.1.jar:/home/archy/.local/share/multimc/libraries/net/fabricmc/fabric-loader/0.11.6/fabric-loader-0.11.6.jar:/home/archy/.local/share/multimc/libraries/com/mojang/minecraft/1.16.5/minecraft-1.16.5-client.jar)
+[20:53:56] [main/INFO]: Reloading ResourceManager: Default, Fabric Mods (Fabric Key Bindings (v0), Fabric Loader, Fabric Dimensions API (v1), ToroHealth Damage Indicators, Fabric Game Rule API (v1), tweed4_tailor_screen, Fabric API Base, ClickThrough, phormat, Roughly Enough Resources, Hwyla, Fabric BlockRenderLayer Registration (v1), tweed4_base, Fabric API, Fabric Networking (v0), Fabric API Lookup API (v1), Fabric Screen Handler API (v1), Mod Menu, Sodium Extra, Phosphor, Fabric Tool Attribute API (v1), Edit Sign, REI (Runtime), Reese's Sodium Options, Fabric Crash Report Info (v1), Where Is It, Fabric Events Interaction (v0), Fabric Language Kotlin, Mouse Wheelie, Fabric Key Binding API (v1), Cloth Config v4, Fabric Resource Loader (v0), Stendhal, Fabric Commands (v0), Fabric Registry Sync (v0), Light Overlay, Sakura Rosea, Fabric Mining Levels (v0), Fabric Networking API (v1), Fabric Item Groups (v0), Fabric Models (v0), tweed4_tailor_coat, Fabric Renderer API (v1), Drip Sounds, Clear Despawn, GBfabrictools, Fabric Structure API (v1), Fabric Containers (v0), Lithium, Fabric Object Builder API (v1), Rotten Flesh To Leather, Fabric Rendering Data Attachment (v1), Concrete plus, Stoneholm, tweed4_data_hjson, Fabric Textures (v0), Fabric Rendering Fluids (v1), Fabric Lifecycle Events (v1), Coat, Sodium, Fabric Renderer Registries (v1), Fabric Loot Tables (v1), tweed4_annotated, Dynamic FPS, Fabric Particles (v1), Fabric Networking Block Entity (v0), Ok Zoomer, Fabric Command API (v1), DashLoader, Amecs API, Fabric Screen API (v1), Fabric Renderer - Indigo, Inventorio, Smooth Boot, Dark Loading Screen, Roughly Enough Items, Fabric Item API (v1), limitless, Fabric Entity Events (v1), tweed4_data, Fabric Rendering (v0), Fabric Rendering (v1), Vistas, Auto Config v1 Updated, Fabric Content Registries (v0), Fabric Tag Extensions (v0), Extra Sounds, Fabric Biome API (v1), AppleSkin, Fabric Events Lifecycle (v0), Fabric Object Builders (v0), common formatting, MumbleLink), wholsom
+[20:53:56] [main/INFO]: [STDOUT]: Inject generated resource packs.
+[20:53:56] [main/INFO]: Particles loading
+[20:53:56] [main/INFO]: OpenAL initialized.
+[20:53:56] [main/INFO]: Sound engine started
+[20:53:57] [main/INFO]: Allocated: 256x256x0 minecraft:textures/atlas/particles.png-atlas
+[20:53:57] [main/INFO]: Allocated: 1024x1024x4 minecraft:textures/atlas/blocks.png-atlas
+[20:53:57] [main/INFO]: Allocated: 256x128x4 minecraft:textures/atlas/signs.png-atlas
+[20:53:57] [main/INFO]: Allocated: 1024x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[20:53:57] [main/INFO]: Allocated: 1024x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[20:53:57] [main/INFO]: Allocated: 512x256x4 minecraft:textures/atlas/chest.png-atlas
+[20:53:57] [main/INFO]: Allocated: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[20:53:57] [main/INFO]: Allocated: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[20:53:57] [main/INFO]: Allocated: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[20:53:57] [main/INFO]: Allocated: 256x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[20:53:57] [main/INFO]: Reloaded configs for mousewheelie (client/smallest)
+[20:54:00] [main/INFO]: Connecting to 192.168.2.8, 35599
+[20:54:03] [main/INFO]: Started 12 worker threads
+[20:54:03] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[20:54:03] [main/INFO]: Requested config sync for mousewheelie
+[20:54:03] [main/INFO]: Linking to VoIP client...
+[20:54:03] [main/INFO]: Linked
+[20:54:03] [REI-SyncRecipes/INFO]: Reloading REI, registered 3 plugins: roughlyenoughitems:default_runtime_plugin, roughlyenoughresources:rer_plugin, roughlyenoughitems:default_plugin
+[20:54:03] [REI-SyncRecipes/INFO]: Applied Check Tags for potion in 20ms.
+[20:54:03] [REI-SyncRecipes/INFO]: Reloaded 1489 stack entries, 5895 recipes displays, 3 exclusion zones suppliers, 5 overlay deciders, 1 visibility handlers and 21 categories (Crafting, Smelting, Smoking, Blasting, Campfire, Stone Cutting, Fuel, Brewing, Composting, Stripping, Smithing, Beacon Base, Beacon Payment, Tilling, Pathing, Information, Overworld Generation, The End Generation, The Nether Generation, Block Loot Drop, Entity Loot Drop) in 186ms.
+[20:54:04] [main/INFO]: Loaded 435 advancements
+[20:54:05] [Worker-Main-11/ERROR]: Signature is missing from textures payload
+[20:54:17] [main/INFO]: [CHAT] <catforcuddle> ahoj
+[20:54:24] [main/INFO]: [CHAT] <Fixaxd> ahoj
+[20:54:27] [main/INFO]: [CHAT] <Fixaxd> my jsme v netheru
+[20:54:33] [main/INFO]: [CHAT] <Fixaxd> a málem jsme se ztratili :D
+[20:54:37] [main/INFO]: [CHAT] <catforcuddle> co se tu změnilo mezitím
+[20:54:41] [main/INFO]: [CHAT] <Cubo_CZ> já hledám slime chunky
+[20:54:44] [main/INFO]: [CHAT] <Fixaxd> mám full netherite
+[20:54:44] [main/INFO]: [CHAT] <Fixaxd> :D
+[20:55:08] [main/INFO]: [CHAT] <Johnystar_CZ> jsem napapaná
+[20:55:10] [main/INFO]: [CHAT] <Johnystar_CZ> jdu zas gejmit
+[20:55:13] [main/INFO]: [CHAT] <Johnystar_CZ> je
+[20:55:16] [main/INFO]: [CHAT] <Johnystar_CZ> ahoj rily
+[20:55:29] [main/INFO]: [CHAT] <Johnystar_CZ> @catforcuddle kdepak sesh
+[20:55:35] [main/INFO]: [CHAT] <catforcuddle> nahoře
+[20:55:37] [main/WARN]: Received passengers for unknown entity
+[20:55:38] [main/INFO]: [CHAT] <Johnystar_CZ> damn
+[20:55:42] [main/INFO]: [CHAT] <Cubo_CZ> horní?
+[21:03:20] [main/INFO]: [CHAT] catforcuddle has made the advancement [Best Friends Forever]
+[21:03:20] [main/INFO]: Loaded 435 advancements
+[21:03:40] [main/WARN]: Unable to play empty soundEvent: minecraft:entity.salmon.ambient
+[21:05:08] [main/INFO]: [CHAT] MatesoN_ has made the advancement [Best Friends Forever]
+[21:05:18] [main/INFO]: Loaded 436 advancements
+[21:06:01] [main/INFO]: [CHAT] Saved screenshot as 2021-07-03_21.06.00.png
+[21:07:48] [main/INFO]: [CHAT] <Fixaxd> čiči
+[21:07:54] [main/INFO]: [CHAT] <Fixaxd> kde je čiči
+[21:08:06] [main/INFO]: [CHAT] <Fixaxd> čičinamazlení
+[21:13:33] [main/INFO]: [CHAT] <Fixaxd> pšššt
+[21:13:40] [main/INFO]: [CHAT] <MatesoN_> fixa trefil kone
+[21:13:44] [main/INFO]: [CHAT] <Fixaxd> co
+[21:13:46] [main/INFO]: [CHAT] <Fixaxd> ne
+[21:13:47] [main/INFO]: [CHAT] <Fixaxd> lže
+[21:13:55] [main/INFO]: [CHAT] <MatesoN_> no jasně bráško
+[21:13:57] [main/INFO]: [CHAT] <catforcuddle> žije?
+[21:13:59] [main/INFO]: [CHAT] <Fixaxd> jo
+[21:14:02] [main/INFO]: [CHAT] <MatesoN_> jo žije
+[21:14:04] [main/INFO]: [CHAT] <Fixaxd> mateson mu ubral
+[21:14:04] [main/INFO]: [CHAT] <Fixaxd> hp
+[21:14:05] [main/INFO]: [CHAT] <catforcuddle> oktakvpoho
+[21:14:08] [main/INFO]: [CHAT] <Fixaxd> a svádí to na mně
+[21:14:09] [main/INFO]: [CHAT] <Fixaxd> >>:(
+[21:14:10] [main/INFO]: [CHAT] <MatesoN_> ne ty voe
+[21:14:15] [main/INFO]: [CHAT] <Fixaxd> jdu těžit netherite
+[21:14:17] [main/INFO]: [CHAT] <Fixaxd> :)
+[21:14:25] [main/INFO]: [CHAT] <catforcuddle> mě je to jedno; berete za to zodpovědnost vy dva
+[21:14:28] [main/INFO]: [CHAT] <Fixaxd> pro rileyho :D
+[21:14:37] [main/INFO]: [CHAT] <catforcuddle> actually taky bych šlq pro nederajt
+[21:14:53] [main/INFO]: [CHAT] <catforcuddle> neandrtá.lní rýže
+[21:15:00] [main/INFO]: [CHAT] <MatesoN_> ?
+[21:15:05] [main/INFO]: [CHAT] <Fixaxd> uwu
+[21:15:09] [main/INFO]: [CHAT] <Fixaxd> riley je super cute
+[21:15:10] [main/INFO]: [CHAT] <Fixaxd> lol
+[21:15:15] [main/INFO]: [CHAT] <MatesoN_> kde jesš riley?
+[21:15:25] [main/INFO]: [CHAT] <Fixaxd> actually jdu simpovat pro riley
+[21:15:40] [main/INFO]: [CHAT] <Fixaxd> protože why not
+[21:15:50] [main/INFO]: [CHAT] <catforcuddle> sryjánejsemtwitchstreamerka
+[21:15:57] [main/INFO]: [CHAT] <Fixaxd> :c
+[21:16:07] [main/INFO]: [CHAT] <Fixaxd> ale seš kočka
+[21:16:08] [main/INFO]: [CHAT] <Fixaxd> :)
+[21:16:55] [main/INFO]: [CHAT] <Fixaxd> rajlíku
+[21:17:06] [main/INFO]: [CHAT] <Fixaxd> jdeš semnou těžit nederajt ?
+[21:17:34] [main/INFO]: [CHAT] <catforcuddle> uhhhm
+[21:17:36] [main/INFO]: [CHAT] <catforcuddle> užjdu
+[21:18:41] [main/INFO]: [CHAT] <catforcuddle> Fixo?
+[21:18:44] [main/INFO]: [CHAT] <catforcuddle> Foxíku??
+[21:18:47] [main/INFO]: [CHAT] <Fixaxd> mňo
+[21:18:48] [main/INFO]: [CHAT] <Fixaxd> uwu
+[21:18:49] [main/INFO]: [CHAT] <Fixaxd> foxík
+[21:18:52] [main/INFO]: [CHAT] <catforcuddle> kdepakseš
+[21:18:52] [main/INFO]: [CHAT] <Fixaxd> lec gou
+[21:18:55] [main/INFO]: [CHAT] <Fixaxd> u mně doma
+[21:18:59] [main/INFO]: [CHAT] <catforcuddle> toekde
+[21:19:06] [main/INFO]: [CHAT] <Fixaxd> musíš netherem
+[21:19:21] [main/INFO]: [CHAT] <catforcuddle> mám něco vzít s sebou?
+[21:19:22] [main/INFO]: [CHAT] <Fixaxd> já pro tebe dojdu
+[21:19:28] [main/INFO]: [CHAT] <catforcuddle> kk
+[21:19:28] [main/INFO]: [CHAT] <Fixaxd> nwm
+[21:19:33] [main/INFO]: Stopping worker threads
+[21:19:33] [main/INFO]: Started 12 worker threads
+[21:19:33] [main/INFO]: Stopping worker threads
+[21:19:33] [main/INFO]: Started 12 worker threads
+[21:19:33] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[21:19:34] [main/WARN]: Received passengers for unknown entity
+[21:19:34] [main/WARN]: Received passengers for unknown entity
+[21:19:52] [main/INFO]: [CHAT] <catforcuddle> jakýmsměrem
+[21:19:54] [main/INFO]: [CHAT] <Fixaxd> dřevo potřebuju
+[21:19:56] [main/INFO]: [CHAT] <Fixaxd> čkj dojdu
+[21:20:03] [main/INFO]: [CHAT] <catforcuddle> ok, beru dřebo
+[21:20:10] [main/INFO]: Stopping worker threads
+[21:20:10] [main/INFO]: Started 12 worker threads
+[21:20:10] [main/INFO]: Stopping worker threads
+[21:20:10] [main/INFO]: Started 12 worker threads
+[21:20:10] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[21:20:51] [main/INFO]: [CHAT] <Fixaxd> už letím
+[21:20:56] [main/INFO]: Stopping worker threads
+[21:20:56] [main/INFO]: Started 12 worker threads
+[21:20:56] [main/INFO]: Stopping worker threads
+[21:20:56] [main/INFO]: Started 12 worker threads
+[21:20:56] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[21:20:56] [main/WARN]: Received passengers for unknown entity
+[21:20:56] [main/WARN]: Received passengers for unknown entity
+[21:21:02] [main/INFO]: [CHAT] <catforcuddle> 118 birch logů
+[21:21:33] [main/INFO]: [CHAT] <catforcuddle> @MatesoN_, ten portál hub vypadá skvěle
+[21:21:38] [main/INFO]: [CHAT] <Fixaxd> čkj
+[21:21:43] [main/INFO]: [CHAT] <Fixaxd> řeším něco s tátou
+[21:21:55] [main/WARN]: Received passengers for unknown entity
+[21:23:40] [main/WARN]: Received passengers for unknown entity
+[21:24:28] [main/INFO]: Loaded 436 advancements
+[21:24:34] [main/WARN]: Received passengers for unknown entity
+[21:24:38] [main/WARN]: Unable to play empty soundEvent: minecraft:block.roots.step
+[21:24:55] [main/INFO]: Stopping worker threads
+[21:24:55] [main/INFO]: Started 12 worker threads
+[21:24:55] [main/INFO]: Stopping worker threads
+[21:24:55] [main/INFO]: Started 12 worker threads
+[21:24:55] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[21:25:40] [main/INFO]: [CHAT] Respawn point set
+[21:26:32] [main/WARN]: Unable to play empty soundEvent: minecraft:entity.cod.ambient
+[21:26:36] [main/INFO]: Stopping worker threads
+[21:26:36] [main/INFO]: Started 12 worker threads
+[21:26:36] [main/INFO]: Stopping worker threads
+[21:26:36] [main/INFO]: Started 12 worker threads
+[21:26:36] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[21:26:37] [main/WARN]: Received passengers for unknown entity
+[21:26:40] [main/WARN]: Received passengers for unknown entity
+[21:26:43] [main/WARN]: Received passengers for unknown entity
+[21:27:30] [main/INFO]: Loaded 436 advancements
+[21:29:37] [main/INFO]: [CHAT] <catforcuddle> damn
+[21:31:44] [main/WARN]: Received passengers for unknown entity
+[21:32:20] [main/WARN]: Received passengers for unknown entity
+[21:32:42] [main/WARN]: Received passengers for unknown entity
+[21:33:48] [main/INFO]: Loaded 436 advancements
+[21:35:36] [main/INFO]: [CHAT] KevinHere joined the game
+[21:35:40] [main/INFO]: [CHAT] <MatesoN_> pog
+[21:35:41] [main/INFO]: [CHAT] <Fixaxd> ahoj kewo
+[21:36:39] [main/INFO]: Loaded 438 advancements
+[21:37:13] [main/INFO]: [CHAT] <KevinHere> šau
+[21:37:16] [main/WARN]: Received passengers for unknown entity
+[21:37:25] [main/INFO]: [CHAT] <catforcuddle> tschau
+[21:37:40] [main/INFO]: [CHAT] <Johnystar_CZ> 🛡
+[21:42:18] [main/INFO]: [CHAT] <catforcuddle> Ivan
+[21:43:12] [main/INFO]: [CHAT] <catforcuddle> podezř even
+[21:45:19] [main/WARN]: Received passengers for unknown entity
+[21:45:27] [main/WARN]: Received passengers for unknown entity
+[21:45:37] [main/INFO]: [CHAT] MatesoN_ was slain by KevinHere
+[21:45:41] [main/INFO]: [CHAT] KevinHere has made the advancement [Isn't It Iron Pick]
+[21:45:41] [main/INFO]: [CHAT] <Fixaxd> D:
+[21:45:49] [main/WARN]: Received passengers for unknown entity
+[21:45:50] [main/WARN]: Received passengers for unknown entity
+[21:45:51] [main/INFO]: [CHAT] <Johnystar_CZ> bruhé
+[21:45:53] [main/INFO]: [CHAT] <MatesoN_> kevin je zlej :)
+[21:45:54] [main/INFO]: [CHAT] <Fixaxd> já že se nezabijíme :c
+[21:45:59] [main/INFO]: [CHAT] <KevinHere> to mateson
+[21:46:07] [main/INFO]: [CHAT] <Fixaxd> kewin dostane ban
+[21:46:08] [main/WARN]: Received passengers for unknown entity
+[21:46:14] [main/INFO]: [CHAT] <KevinHere> on si začal vole
+[21:46:27] [main/INFO]: [CHAT] <catforcuddle> toe jedno
+[21:46:29] [main/INFO]: [CHAT] <catforcuddle> stop it
+[21:46:29] [main/INFO]: [CHAT] <Fixaxd> ale zabíjet našeho milovaného femboie
+[21:46:33] [main/INFO]: [CHAT] <catforcuddle> getsamhelp
+[21:46:35] [main/INFO]: [CHAT] <Fixaxd> je trestné
+[21:46:43] [main/INFO]: [CHAT] <Fixaxd> do horny jailu s tebou
+[21:46:45] [main/INFO]: [CHAT] KevinHere left the game
+[21:46:48] [main/INFO]: [CHAT] <Fixaxd> D:
+[21:50:03] [main/INFO]: [CHAT] <catforcuddle> kdesesh
+[21:51:28] [main/INFO]: [CHAT] <Fixaxd> riley je bůh v hledání netheritu
+[21:51:40] [main/INFO]: [CHAT] <Johnystar_CZ> lol
+[21:51:43] [main/INFO]: [CHAT] <Fixaxd> zaslouží si whiskas
+[21:51:46] [main/INFO]: [CHAT] <Johnystar_CZ> lol
+[21:52:12] [main/WARN]: Received passengers for unknown entity
+[21:52:47] [main/WARN]: Received passengers for unknown entity
+[21:52:53] [main/WARN]: Received passengers for unknown entity
+[21:55:01] [main/INFO]: [CHAT] <catforcuddle> pomoc
+[21:55:05] [main/INFO]: [CHAT] <catforcuddle> 4 srdíčka
+[21:55:13] [main/INFO]: [CHAT] <Johnystar_CZ> damn
+[21:55:13] [main/WARN]: Received passengers for unknown entity
+[21:55:13] [main/INFO]: [CHAT] <MatesoN_> fixa pomůže
+[21:55:20] [main/INFO]: [CHAT] <Fixaxd> kde jsi
+[21:55:20] [main/INFO]: [CHAT] <catforcuddle> jsem 150 13 231
+[21:55:30] [main/INFO]: [CHAT] <catforcuddle> málem jsem umřelq
+[21:55:43] [main/WARN]: Received passengers for unknown entity
+[21:55:46] [main/WARN]: Received passengers for unknown entity
+[21:57:12] [main/INFO]: [CHAT] <Fixaxd> matesone
+[21:57:18] [main/INFO]: [CHAT] <MatesoN_> ano
+[21:57:20] [main/INFO]: [CHAT] <Fixaxd> jaké jsou souřadnice portal hubu
+[21:57:21] [main/INFO]: [CHAT] <Fixaxd> ?
+[21:57:24] [main/INFO]: [CHAT] <Johnystar_CZ> nejsou
+[21:57:26] [main/INFO]: [CHAT] <Johnystar_CZ> #rekt
+[21:57:30] [main/INFO]: [CHAT] <Johnystar_CZ> :)
+[21:57:30] [main/INFO]: [CHAT] <Fixaxd> shush ty tam
+[21:57:34] [main/INFO]: [CHAT] <MatesoN_> porn hubu?
+[21:57:35] [main/INFO]: [CHAT] <Fixaxd> ☺
+[21:57:40] [main/INFO]: [CHAT] <Fixaxd> PORTAL
+[21:57:43] [main/INFO]: [CHAT] <Fixaxd> HUBU
+[21:57:44] [main/INFO]: [CHAT] <MatesoN_> porn?
+[21:57:48] [main/INFO]: [CHAT] <Fixaxd> PORTAL
+[21:57:50] [main/INFO]: [CHAT] <Fixaxd> NE PORN
+[21:57:55] [main/INFO]: [CHAT] <catforcuddle> vysjtehornívšecismsmh
+[21:57:57] [main/INFO]: [CHAT] <Fixaxd> TEN NAJDE KLAKSON
+[21:57:58] [main/INFO]: [CHAT] <Johnystar_CZ> 17 94 -13
+[21:58:08] [main/INFO]: [CHAT] <Fixaxd> nya ichi ni san nya arigato
+[21:58:13] [main/INFO]: [CHAT] <catforcuddle> nějakých 200 bloků
+[22:01:30] [main/WARN]: Received passengers for unknown entity
+[22:01:43] [main/WARN]: Received passengers for unknown entity
+[22:01:52] [main/INFO]: Stopping worker threads
+[22:01:52] [main/INFO]: Started 12 worker threads
+[22:01:52] [main/INFO]: Stopping worker threads
+[22:01:52] [main/INFO]: Started 12 worker threads
+[22:01:52] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[22:02:06] [main/INFO]: [CHAT] <catforcuddle> lol?
+[22:02:15] [main/INFO]: [CHAT] <Fixaxd> už jsme doma pogu
+[22:02:22] [main/INFO]: [CHAT] <Johnystar_CZ> gratulka
+[22:05:41] [main/INFO]: [CHAT] <Johnystar_CZ> dia
+[22:05:43] [main/INFO]: [CHAT] <Johnystar_CZ> lesgo
+[22:05:48] [main/INFO]: [CHAT] <Johnystar_CZ> best výprava do Netheru ever
+[22:05:49] [main/INFO]: [CHAT] <Johnystar_CZ> lol
+[22:06:02] [main/INFO]: Loaded 449 advancements
+[22:06:32] [main/INFO]: [CHAT] <Fixaxd> riley vítej v netherite gangu
+[22:06:33] [main/INFO]: [CHAT] <Fixaxd> :D
+[22:06:45] [main/INFO]: [CHAT] <Johnystar_CZ> ale mi našli dia
+[22:07:06] [main/INFO]: [CHAT] <Fixaxd> gaming
+[22:07:16] [main/INFO]: [CHAT] <Fixaxd> riley má netherite meč a pickeks
+[22:08:12] [main/INFO]: [CHAT] <Fixaxd> kdokoliv discord ať si možu povidat :D
+[22:08:19] [main/INFO]: [CHAT] <catforcuddle> Já už asi půjdu gamers
+[22:08:22] [main/INFO]: [CHAT] <catforcuddle> tak pá
+[22:08:25] [main/INFO]: [CHAT] <Johnystar_CZ> tohle je ten tvuj domeček Mio?
+[22:08:25] [main/INFO]: [CHAT] <catforcuddle> dobrou noc
+[22:08:27] [main/INFO]: [CHAT] <Fixaxd> oh
+[22:08:29] [main/INFO]: [CHAT] <Johnystar_CZ> dobrou Rily
+[22:08:30] [main/INFO]: [CHAT] <catforcuddle> mějte se dobře
+[22:08:31] [main/INFO]: [CHAT] <Fixaxd> gn
+[22:08:38] [main/INFO]: Stopping worker threads
+[22:08:38] [main/INFO]: Unlinking from VoIP client...
+[22:08:38] [main/INFO]: Unlinked
+[22:08:43] [main/INFO]: Stopping!
