@@ -1,6 +1,7 @@
-Some settings are made for my setup specifically so you may want to change some.
+I recommend browsing all the files if you find anything that you know is imcompatible with your setup.
 
-The Arc-based theme was made with Themix.
-https://github.com/themix-project/oomox
+Config files for:
+- Openbox-patched
 
-This repository mostly funcitons as my back-up if anything happens with my system.
+
+The Arc-based theme was made with [Themix](https://github.com/themix-project/oomox).
