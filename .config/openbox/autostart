@@ -1,6 +1,10 @@
-xrandr --output DVI-D-0 --mode 1920x1080 --pos 2560x0 --rotate normal --output HDMI-0 --off --output DP-0 --primary --mode 2560x1080 --pos 0x0 --rotate normal --output DP-1 --off &
+/usr/bin/pipewire &
+/usr/bin/pipewire-pulse &
+/usr/bin/pipewire-media-session &
+ibus-daemon -drxR &
+(~/.screenlayout/monitors.sh && polybar -config=~/.config/polybar/config top) &
 nitrogen --restore &
 picom -b &
 numlockx &
 setxkbmap -layout cz -variant qwerty &
-polybar -config=~/.config/polybar/config top &
+dunst &

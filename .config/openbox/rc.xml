@@ -54,10 +54,11 @@
       S: shade (roll up/down)
       D: omnipresent (on all desktops).
   -->
+    <cornerRadius>4</cornerRadius>
     <keepBorder>yes</keepBorder>
     <animateIconify>yes</animateIconify>
     <font place="ActiveWindow">
-      <name>Noto Sans Display</name>
+      <name>NotoSansDisplay Nerd Font</name>
       <size>10</size>
       <!-- font size in points -->
       <weight>Normal</weight>
@@ -66,7 +67,7 @@
       <!-- 'italic' or 'normal' -->
     </font>
     <font place="InactiveWindow">
-      <name>Noto Sans Display</name>
+      <name>NotoSansDisplay Nerd Font</name>
       <size>10</size>
       <!-- font size in points -->
       <weight>Normal</weight>
@@ -75,8 +76,8 @@
       <!-- 'italic' or 'normal' -->
     </font>
     <font place="MenuHeader">
-      <name>Noto Sans Display</name>
-      <size>9</size>
+      <name>NotoSansDisplay Nerd Font</name>
+      <size>10</size>
       <!-- font size in points -->
       <weight>Normal</weight>
       <!-- 'bold' or 'normal' -->
@@ -84,8 +85,8 @@
       <!-- 'italic' or 'normal' -->
     </font>
     <font place="MenuItem">
-      <name>Noto Sans Display</name>
-      <size>9</size>
+      <name>NotoSansDisplay Nerd Font</name>
+      <size>10</size>
       <!-- font size in points -->
       <weight>Normal</weight>
       <!-- 'bold' or 'normal' -->
@@ -93,8 +94,8 @@
       <!-- 'italic' or 'normal' -->
     </font>
     <font place="ActiveOnScreenDisplay">
-      <name>Noto Sans Display</name>
-      <size>9</size>
+      <name>NotoSansDisplay Nerd Font</name>
+      <size>10</size>
       <!-- font size in points -->
       <weight>Bold</weight>
       <!-- 'bold' or 'normal' -->
@@ -102,8 +103,8 @@
       <!-- 'italic' or 'normal' -->
     </font>
     <font place="InactiveOnScreenDisplay">
-      <name>Noto Sans Display</name>
-      <size>9</size>
+      <name>NotoSansDisplay Nerd Font</name>
+      <size>10</size>
       <!-- font size in points -->
       <weight>Bold</weight>
       <!-- 'bold' or 'normal' -->
@@ -367,7 +368,24 @@
       <action name="Execute">
         <command>rofi -show run</command>
       </action>
-    </keybind>          
+    </keybind>
+    <keybind key="W-F11">
+      <action name="Reconfigure"/>
+    </keybind>
+    <keybind key="C-A-t">
+      <action name="Execute">
+        <command>kitty</command>
+      </action>
+    </keybind>
+    <keybind key="W-x">
+      <action name="Execute">
+        <startupnotify>
+          <enabled>true</enabled>
+            <name>oblogut</name>
+        </startupnotify>
+        <command>oblogout</command>
+      </action>
+    </keybind>
   </keyboard>
   <mouse>
     <dragThreshold>1</dragThreshold>
