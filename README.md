@@ -10,7 +10,7 @@ Config files for:
   - My config has Windows-like window snaping
 
 - [picom](https://github.com/yshui/picom)
-  - Here I really recommend checking the config especially if you're using AMD GPU
+  - Here I really recommend checking the config especially if you're using an AMD GPU
 
 - [polybar](https://github.com/polybar/polybar) and [scripts](https://github.com/polybar/polybar-scripts) (bar)
   - You might check some settings
