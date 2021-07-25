@@ -1,4 +1,6 @@
 I recommend browsing all the files if you find anything that you know is imcompatible with your setup.
+My setup is made for a 2560x1080 monitor with a second FHD one.
+
 Some of the settings are borrowed from dotfiles of my friends:
 - https://github.com/Johnystar/.dotfiles-management
 - https://github.com/Call-Me-Apro
