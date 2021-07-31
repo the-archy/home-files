@@ -3,8 +3,7 @@ width = 100%
 height = 40 
 radius = 1.0
 fixed-center = true
-
-bottom = true
+;bottom = true
 
 background = #181818
 background-alt = #484848
@@ -15,59 +14,49 @@ line-color = #f00
 
 border-size = 0
 border-color = #00000000
-
 padding-left = 0
 padding-right = 0
-
 module-margin-left = 0
 module-margin-right = 0
 
-font-0 = Overpass Nerd Font:style=Regular:size=12
+font-0 = NotoSansDisplay Nerd Font:style=Regular:size=12
+font-1 = Noto Sans Mono CJK JP:style=Regular:size=12
 
-modules-left = system-uptime-pretty mpd
+modules-left = system-uptime-pretty weddr player-mpris-tail
 modules-center = time
-modules-right = system-cpu-frequency cpu system-nvidia-smi memory network pulseaudio pulseaudio-microphone
+modules-right = cpu system-nvidia-smi memory network pulseaudio
 
-tray-position = right
-tray-padding = 5
+;tray-position = right
+;tray-padding = 5
 
 cursor-click = pointer
 cursor-scroll = ns-resize
 
 monitor = ${env:MONITOR:}
+enable-ipc = true
 
-[module/system-cpu-temppercore]
+[module/player-mpris-tail]
 type = custom/script
-exec = ~/polybar-scripts/system-cpu-temppercore.sh
-interval = 60
-
-format-padding = 2
-format-background = #32a4ef
-format-foreground = #181818
-format-underline = #282828
-
-[module/pulseaudio-microphone]
-type = custom/script
-exec = ~/polybar-scripts/pulseaudio-microphone.sh
+exec = ~/polybar-scripts/player-mpris-tail.py -f '{icon} {artist} - {title}'
 tail = true
-click-left = ~/polybar-scripts/pulseaudio-microphone.sh --toggle &
-scroll-up = ~/polybar-scripts/pulseaudio-microphone.sh --increase &
-scroll-down = ~/polybar-scripts/pulseaudio-microphone.sh --decrease &
+click-left = ~/polybar-scripts/player-mpris-tail.py previous &
+click-right = ~/polybar-scripts/player-mpris-tail.py next &
+click-middle = ~/polybar-scripts/player-mpris-tail.py play-pause &
 
-format-padding = 2
 format-background = #32a4ef
 format-foreground = #181818
 format-underline = #282828
+format-padding = 2
 
-[module/system-cpu-frequency]
+[module/weddr]
 type = custom/script
-exec = ~/polybar-scripts/system-cpu-frequency.sh
-interval = 1
+exec = curl -s http://wttr.in/?format=%c+%C+%t+%w+%p
+interval = 300
 
-format-padding = 2
 format-background = #32a4ef
 format-foreground = #181818
 format-underline = #282828
+format-padding = 2
 
 [module/system-uptime-pretty]
 type = custom/script
@@ -82,7 +71,7 @@ format-underline = #282828
 [module/system-nvidia-smi]
 type = custom/script
 exec = ~/polybar-scripts/system-nvidia-smi.sh
-interval = 1
+tail = true
 
 format-padding = 2
 format-background = #32a4ef
@@ -91,16 +80,21 @@ format-underline = #282828
 
 [module/network]
 type = internal/network
-interface = enp7s0
+interface = eth0
 
-label-connected = %upspeed%  %downspeed%
-
-label-connected-foreground = #282828
-label-connected-background = #32a4ef
-label-connected-padding = 2
-label-connected-underline = #282828
+format-disconnected = <label-disconnected>
+label-disconnected = Error 404
+label-disconnected-foreground = #282828
+label-disconnected-background = #32a4ef
+label-disconnected-padding = 1
+label-disconnected-underline = #282828
 
 format-connected = <label-connected>
+label-connected = %upspeed% %downspeed%
+label-connected-foreground = #282828
+label-connected-background = #32a4ef
+label-connected-padding = 1
+label-connected-underline = #282828
 
 [module/xwindow]
 type = internal/xwindow
@@ -143,9 +137,9 @@ label-urgent-padding = 2
 type = internal/cpu
 interval = 1
 format-prefix = "CPU "
-label = %percentage%%
+label = %percentage% %
 
-format-padding = 1
+format-padding = 2
 format-background = #32a4ef
 format-foreground = #181818
 format-underline = #282828
@@ -153,7 +147,7 @@ format-underline = #282828
 [module/memory]
 type = internal/memory
 interval = 1
-label = RAM %percentage_used%% %gb_used%/%gb_total%
+label = RAM %percentage_used% % %gb_used%/%gb_total%
 
 format-padding = 2
 format-background = #32a4ef
@@ -209,8 +203,6 @@ type = internal/temperature
 thermal-zone = 0
 warn-temperature = 60
 
-
-
 format = <ramp> <label>
 format-warn = <ramp> <label-warn>
 
@@ -222,7 +214,7 @@ label-warn-padding = 1
 ramp-0 = 
 ramp-1 = 
 ramp-foreground = #FFFFFF
-format-padding = 1
+format-padding = 2
 
 [module/pulseaudio]
 type = internal/pulseaudio
@@ -241,10 +233,10 @@ interval = 5
 ;   <bar-volume>
 format-volume = <ramp-volume> <label-volume>
 
-label-padding = 2
-label-background = #32a4ef
-label-foreground = #181818
-label-underline = #282828
+format-volume-padding = 1
+format-volume-background = #32a4ef
+format-volume-foreground = #181818
+format-volume-underline = #282828
 
 ; Available tags:
 ;   <label-muted> (default)
@@ -261,7 +253,6 @@ label-underline = #282828
 ;   %percentage% (default)
 ;   %decibels% (unreleased)
 label-muted = 
-label-muted-foreground = #f1f1f1
 
 ; Only applies if <ramp-volume> is used
 ramp-volume-0 = 
